@@ -1,0 +1,20 @@
+[
+	{
+		"id": "1",
+		"backgroundImage": "slider001.jpg",
+		"uniqClass": "slider-box slider-box1",
+		"title": "Welcome To Summit University Advancement Bureau.",
+		"desc": "Let's Sustain Summit for Current and Future Generation",
+		"btnOneLink": "course-grid",
+		"btnTwoLink": "contact"
+	},
+	{
+		"id": "2",
+		"backgroundImage": "slider-002.jpg",
+		"uniqClass": "slider-box slider-box2 text-right",
+		"title": "Give To Summit.",
+		"desc": "Support Us for Quality Learning, Teaching, and Research",
+		"btnOneLink": "course-grid",
+		"btnTwoLink": "contact"
+	}
+]

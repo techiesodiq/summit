@@ -1,0 +1,38 @@
+{
+	"secTitle": "Lets See What Our Alumni Think About Us. Their Testimonials.",
+	"backgroundImage": "vd-bg.jpg",
+	"dataList": [
+		{
+			"id": "1",
+			"testimonialTitle": "Summit University made me who I am today.",
+			"testimonialDesc": "I'm really fortunate to have attended a great institute 'Summit University, Offa' which has contributed tremendously in educating me into who I have become today.",
+			"authorImg": "testimonial-01.jpg",
+			"authorName": "Idowu Mercy Akpan",
+			"authorTitle": "BSc, Political Science"
+		},
+		{
+			"id": "2",
+			"testimonialTitle": "It is great to be a part of this community.",
+			"testimonialDesc": "The beautiful experience with the lecturers and students in the institute is something money cannot buy. This makes me realize that I have something special that many don't have.",
+			"authorImg": "testimonial-02.jpg",
+			"authorName": "Kawthar Oluwakemi Mahmud",
+			"authorTitle": "BSc, Political Science"
+		},
+		{
+			"id": "3",
+			"testimonialTitle": "Summit has zero tolerance for indiscipline.",
+			"testimonialDesc": "Summit is an Islamic faith-based institution that has zero tolerance for indiscipline. I learnt a lot during my stay in the institution, educationally and religiously.",
+			"authorImg": "testimonial-03.jpg",
+			"authorName": "Fawaz Titilayo Paseda",
+			"authorTitle": "BSc, Accounting"
+		},
+		{
+			"id": "4",
+			"testimonialTitle": "Summit has prepared me for the future.",
+			"testimonialDesc": "Summit University helped me achieve my dreams through an intensive study programme, a research and innovation programme without compromising discipline and morals.",
+			"authorImg": "testimonial-04.jpg",
+			"authorName": "Ismaila Adepoju",
+			"authorTitle": "BSc, Computer Science"
+		}
+	]
+}

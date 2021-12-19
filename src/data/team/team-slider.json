@@ -1,0 +1,53 @@
+{
+	"secTitle": "The Advancement Team",
+	"dataList": [
+		{
+			"id": "1",
+			"personImage": "team-01.jpg",
+			"personName": "Alhaji Rafiu Ebiti",
+			"personTitle": "Governing Council Chairman",
+			"socialLinks": {
+				"facebook": "//www.facebook.com",
+				"twitter": "//www.twitter.com",
+				"linkedin": "//www.linkedin.com",
+				"youtube": "//www.youtube.com"
+			}
+		},
+		{
+			"id": "2",
+			"personImage": "team-02.jpg",
+			"personName": "Mr Rotimi Oyekan",
+			"personTitle": "BoT Chairman",
+			"socialLinks": {
+				"facebook": "//www.facebook.com",
+				"twitter": "//www.twitter.com",
+				"linkedin": "//www.linkedin.com",
+				"youtube": "//www.youtube.com"
+			}
+		},
+		{
+			"id": "3",
+			"personImage": "team-03.jpg",
+			"personName": "Prof H.O.B. Oloyede",
+			"personTitle": "Pioneer Vice Chancellor",
+			"socialLinks": {
+				"facebook": "//www.facebook.com",
+				"twitter": "//www.twitter.com",
+				"linkedin": "//www.linkedin.com",
+				"youtube": "//www.youtube.com"
+			}
+		},
+		{
+			"id": "4",
+			"personImage": "team-004.jpg",
+			"personName": "Dr Nurat Akinlabi",
+			"personTitle": "SUAB General Manager",
+			"socialLinks": {
+				"facebook": "//www.facebook.com",
+				"twitter": "//www.twitter.com",
+				"linkedin": "//www.linkedin.com",
+				"youtube": "//www.youtube.com"
+			}
+		}
+	]
+}

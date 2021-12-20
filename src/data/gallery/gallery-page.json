@@ -1,29 +1,38 @@
 [
-    {
-        "galleryImage": "imagegallery-01.jpg"
-    },
-    {
-        "galleryImage": "imagegallery-02.jpg"
-    },
-    {
-        "galleryImage": "imagegallery-03.jpg"
-    },
-    {
-        "galleryImage": "imagegallery-04.jpg"
-    },
-    {
-        "galleryImage": "imagegallery-05.jpg"
-    },
-    {
-        "galleryImage": "imagegallery-06.jpg"
-    },
-    {
-        "galleryImage": "imagegallery-07.jpg"
-    },
-    {
-        "galleryImage": "imagegallery-08.jpg"
-    },
-    {
-        "galleryImage": "imagegallery-09.jpg"
-    }
+	{
+		"galleryImage": "imagegallery-001.jpg"
+	},
+	{
+		"galleryImage": "imagegallery-002.jpg"
+	},
+	{
+		"galleryImage": "imagegallery-003.jpg"
+	},
+	{
+		"galleryImage": "imagegallery-004.jpg"
+	},
+	{
+		"galleryImage": "imagegallery-005.jpg"
+	},
+	{
+		"galleryImage": "imagegallery-009.jpg"
+	},
+	{
+		"galleryImage": "imagegallery-007.jpg"
+	},
+	{
+		"galleryImage": "imagegallery-006.jpg"
+	},
+	{
+		"galleryImage": "imagegallery-008.jpg"
+	},
+	{
+		"galleryImage": "imagegallery-0010.jpg"
+	},
+	{
+		"galleryImage": "imagegallery-0011.jpg"
+	},
+	{
+		"galleryImage": "imagegallery-0012.jpg"
+	}
 ]

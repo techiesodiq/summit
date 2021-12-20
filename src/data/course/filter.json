@@ -9,9 +9,9 @@
 			"authorName": "John Doe",
 			"authorCourses": "13 Courses",
 			"price": "N450M",
-			"courseTitle": "Construction of A Faculty Building",
+			"courseTitle": "Faculty Building",
 			"courseDesc": "This project involves the construction of any of our proposed faculties. The Benefactor can fund this project partially or fully.",
-			"courseLink": "/course-details"
+			"courseLink": "/projects/"
 		},
 		{
 			"id": "2",
@@ -23,7 +23,7 @@
 			"price": "N1.5M",
 			"courseTitle": "Student's Scholarship Award",
 			"courseDesc": "You can fund a partial or full scholarship award to our brilliant or indigent students to support their education.",
-			"courseLink": "/course-details"
+			"courseLink": "/projects/"
 		},
 		{
 			"id": "3",
@@ -35,7 +35,7 @@
 			"price": "N15M",
 			"courseTitle": "Professorial Chair",
 			"courseDesc": "A benefactor can make a substantial contribution to the salary and other costs of a Named Professorial Chair.",
-			"courseLink": "/course-details"
+			"courseLink": "/projects/"
 		},
 		{
 			"id": "4",
@@ -47,7 +47,7 @@
 			"price": "N75M",
 			"courseTitle": "Sport Centre",
 			"courseDesc": "We welcome benefactors to support us in upgrading our existing Sport Centre to meet our desired taste.",
-			"courseLink": "/course-details"
+			"courseLink": "/projects/"
 		},
 		{
 			"id": "5",
@@ -59,7 +59,7 @@
 			"price": "N400M",
 			"courseTitle": "Teaching and Laboratory Facilities",
 			"courseDesc": "You can support us to upgrade any of our existing teaching or laboratory facilities of your choice.",
-			"courseLink": "/course-details"
+			"courseLink": "/projects/"
 		},
 		{
 			"id": "6",
@@ -70,8 +70,8 @@
 			"authorCourses": "31 Courses",
 			"price": "N120M",
 			"courseTitle": "Artificial Intelligence Centre",
-			"courseDesc": "Our proposed AI Centre is one of our dreams to position Summit as the number one destination of AI in West Africa.",
-			"courseLink": "/course-details"
+			"courseDesc": "Our proposed AI Centre is one of our dreams to position Summit as a top destination for AI in Africa.",
+			"courseLink": "/projects/"
 		},
 		{
 			"id": "7",
@@ -83,7 +83,7 @@
 			"price": "N150M",
 			"courseTitle": "Central Mosque/Islamic Centre",
 			"courseDesc": "We seek collaboration to build an ultra-modern mosque in line with our vision to educate the general public on Islam.",
-			"courseLink": "/course-details"
+			"courseLink": "/projects/"
 		},
 		{
 			"id": "8",
@@ -95,7 +95,7 @@
 			"price": "N10M",
 			"courseTitle": "Research Grant Award",
 			"courseDesc": "We have numerous research projects handled by our scholars that await sponsorship. You can choose to fund anyone of them.",
-			"courseLink": "/course-details"
+			"courseLink": "/projects/"
 		},
 		{
 			"id": "9",
@@ -106,8 +106,8 @@
 			"authorCourses": "31 Courses",
 			"price": "N3M",
 			"courseTitle": "Prize Given Award",
-			"courseDesc": "It is our pride to celebrate our best students on their award. You can fund a prize in your name or your organization.",
-			"courseLink": "/course-details"
+			"courseDesc": "In recognition of our best their hard work and academic excellence, we celebrate our best students on the prize-given day.",
+			"courseLink": "/projects/"
 		}
 	]
 }

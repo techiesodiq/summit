@@ -82,7 +82,7 @@ class HeroSlider extends Component {
 																	process.env.PUBLIC_URL + `/${data.btnOneLink}`
 																}
 															>
-																Our Courses
+																Our Projects
 															</Link>
 															<Link
 																className="slider-btn2"
@@ -90,7 +90,7 @@ class HeroSlider extends Component {
 																	process.env.PUBLIC_URL + `/${data.btnTwoLink}`
 																}
 															>
-																Contact Us
+																Donate Now
 															</Link>
 														</div>
 													</div>

@@ -76,7 +76,9 @@ function CourseFilter() {
 								{Datas.dataList.map((data, i) => (
 									<Col lg="4" md="6" key={i} data-id={data.targetId}>
 										<div className="course-item">
-											<Link to={process.env.PUBLIC_URL + data.courseLink}>
+											<Link
+												to={process.env.PUBLIC_URL + data.courseLink + data.id}
+											>
 												<div
 													className="course-image"
 													style={{

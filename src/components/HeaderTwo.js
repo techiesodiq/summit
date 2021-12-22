@@ -164,7 +164,7 @@ class HeaderTwo extends Component {
 										<li className="nav-item dropdown">
 											<Link
 												className="nav-link dropdown-toggle"
-												to={process.env.PUBLIC_URL + "/home-two"}
+												to={process.env.PUBLIC_URL + "/services"}
 												data-toggle="dropdown"
 											>
 												Services<i className="las la-angle-down"></i>

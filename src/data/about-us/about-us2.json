@@ -1,21 +1,21 @@
 {
-    "secTitle": "We Have Experienced Professionals & We Do Our Best To Achieve Your Goal. Your Happiness Is Our First Priority.",
-    "secDesc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam, mollitia tempora neque voluptate debitis illum veniam.",
-    "dataList": [
-        {
-            "iconTitle": "Best Quality Courses",
-            "iconSubtitle": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam"
-        },
-        {
-            "iconTitle": "Best Quality Courses",
-            "iconSubtitle": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam"
-        },
-        {
-            "iconTitle": "Best Quality Courses",
-            "iconSubtitle": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam"
-        }
-    ],
-    "aboutImageOne": "about-2.jpg",
-    "aboutImageTwo": "about-3.jpg",
-    "experianceYear": "15"
+	"secTitle": "Summit University Advancement Bureau is the Advancement Office of Summit University, Offa, Nigeria.",
+	"secDesc": "We are committed to building a renowned university recognized globally for quality teaching, research and social development. We are calling upon everyone to join us in achieving the Summit University of our dream.",
+	"dataList": [
+		{
+			"iconTitle": "Alumni And Friends",
+			"iconSubtitle": "We seek the collaboration of our graduands and friends to support us in keeping the flag high and take Summit to a greater height"
+		},
+		{
+			"iconTitle": "Private And Public Agencies",
+			"iconSubtitle": "We appeal to agencies - both public and private - to build Summit with us to sustain quality education for the current and future generations."
+		},
+		{
+			"iconTitle": "Others",
+			"iconSubtitle": "We also extend our call to other members of the society to improve the standard of our institution to compete with leading universities in the world."
+		}
+	],
+	"aboutImageOne": "about2-003.jpg",
+	"aboutImageTwo": "about2-002.jpg",
+	"experianceYear": "4"
 }

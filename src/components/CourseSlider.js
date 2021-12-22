@@ -61,7 +61,7 @@ class CourseSlider extends Component {
 														backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${data.imgUrl})`,
 													}}
 												>
-													<div className="author-img d-flex">
+													{/* <div className="author-img d-flex">
 														<div className="img">
 															<img
 																src={
@@ -75,7 +75,7 @@ class CourseSlider extends Component {
 															<p>{data.authorName}</p>
 															<span>{data.authorCourses}</span>
 														</div>
-													</div>
+													</div> */}
 													<div className="course-price">
 														<p>{data.price}</p>
 													</div>

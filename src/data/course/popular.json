@@ -1,30 +1,30 @@
 [
 	{
 		"id": "1",
-		"imgUrl": "pop-course-1.jpg",
-		"price": "$20.00",
-		"courseTitle": "Php & mySql Adv Programming",
-		"courseLink": "/course-details"
+		"imgUrl": "course-01.jpg",
+		"price": "N450M",
+		"courseTitle": "Faculty Building",
+		"courseLink": "/projects"
 	},
 	{
 		"id": "2",
-		"imgUrl": "pop-course-2.jpg",
-		"price": "$13.00",
-		"courseTitle": "Microsoft Excel for Beginner",
-		"courseLink": "/course-details"
+		"imgUrl": "course-02.jpg",
+		"price": "N1.5M",
+		"courseTitle": "Student's Scholarship Award",
+		"courseLink": "/projects"
 	},
 	{
 		"id": "3",
-		"imgUrl": "pop-course-3.jpg",
-		"price": "$19.00",
-		"courseTitle": "Digital Marketing Course",
-		"courseLink": "/course-details"
+		"imgUrl": "course-03.jpg",
+		"price": "N15M",
+		"courseTitle": "Professorial Chair",
+		"courseLink": "/projects"
 	},
 	{
 		"id": "4",
-		"imgUrl": "pop-course-4.jpg",
-		"price": "$16.00",
-		"courseTitle": "Beckend Dev With Wordpress",
-		"courseLink": "/course-details"
+		"imgUrl": "course-04.jpg",
+		"price": "N75M",
+		"courseTitle": "Sports Centre",
+		"courseLink": "/projects"
 	}
 ]

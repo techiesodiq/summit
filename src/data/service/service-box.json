@@ -5,43 +5,43 @@
 			"id": "1",
 			"boxIcon": "flaticon-thumbs-like",
 			"title": "Endowment",
-			"subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+			"subTitle": "Endowment promotes important financial stability to Summit."
 		},
 		{
 			"id": "2",
 			"boxIcon": "flaticon-reading",
 			"title": "Research Grants",
-			"subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+			"subTitle": "Our scholars need grants to fund their research works."
 		},
 		{
 			"id": "3",
 			"boxIcon": "flaticon-teacher",
-			"title": "Professorial Chair",
-			"subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+			"title": "Professorial Chairs",
+			"subTitle": "The available professorial chairs are to attract seasoned scholars."
 		},
 		{
 			"id": "4",
 			"boxIcon": "flaticon-unlimited",
 			"title": "Students' Scholarship",
-			"subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+			"subTitle": "The students' scholarship is to support the students' learning."
 		},
 		{
 			"id": "5",
 			"boxIcon": "flaticon-locations",
 			"title": "Investment",
-			"subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+			"subTitle": "Investment is another scheme aimed to sustain the university."
 		},
 		{
 			"id": "6",
 			"boxIcon": "flaticon-support",
 			"title": "Students' Affairs",
-			"subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+			"subTitle": "We have also setup other schemes to support the students' welfares."
 		},
 		{
 			"id": "7",
 			"boxIcon": "flaticon-support",
 			"title": "Business Ventures",
-			"subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+			"subTitle": "The small business unit is aimed at supporting the university goal."
 		}
 	]
 }

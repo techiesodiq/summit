@@ -48,7 +48,7 @@ function App() {
 					component={HomeOne}
 				/>
 				<Route
-					path={`${process.env.PUBLIC_URL + "/home-two"}`}
+					path={`${process.env.PUBLIC_URL + "/services"}`}
 					component={HomeTwo}
 				/>
 				<Route
@@ -161,6 +161,7 @@ function App() {
 					component={ProductDetails}
 				/>
 				<Route path={`${process.env.PUBLIC_URL + "/cart"}`} component={Cart} />
+				<Route path={`*`} component={PageNotFound} />
 			</Switch>
 		</Router>
 	);

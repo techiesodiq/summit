@@ -1,68 +1,68 @@
 [
-    {
-        "id": "1",
-        "postImg": "blog_c-02.jpg",
-        "authorImg": "author.jpg",
-        "authorName": "Medison Azar",
-        "postLink": "/blog-details",
-        "postDate": "April 23, 2020",
-        "postTitle": "Ratione omnis consequuntur placeae consol fugit eaque vitae hic.",
-        "postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
-        "authorLink": "/"
-    },
-    {
-        "id": "2",
-        "postImg": "blog_c-03.jpg",
-        "authorImg": "author.jpg",
-        "authorName": "Medison Azar",
-        "postLink": "/blog-details",
-        "postDate": "April 23, 2020",
-        "postTitle": "Ratione omnis consequuntur placeae consol fugit eaque vitae hic.",
-        "postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
-        "authorLink": "/"
-    },
-    {
-        "id": "3",
-        "postImg": "blog_c-05.jpg",
-        "authorImg": "author.jpg",
-        "authorName": "Medison Azar",
-        "postLink": "/blog-details",
-        "postDate": "April 23, 2020",
-        "postTitle": "Ratione omnis consequuntur placeae consol fugit eaque vitae hic.",
-        "postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
-        "authorLink": "/"
-    },
-    {
-        "id": "4",
-        "postImg": "blog_c-06.jpg",
-        "authorImg": "author.jpg",
-        "authorName": "Medison Azar",
-        "postLink": "/blog-details",
-        "postDate": "April 23, 2020",
-        "postTitle": "Ratione omnis consequuntur placeae consol fugit eaque vitae hic.",
-        "postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
-        "authorLink": "/"
-    },
-    {
-        "id": "5",
-        "postImg": "blog_c-07.jpg",
-        "authorImg": "author.jpg",
-        "authorName": "Medison Azar",
-        "postLink": "/blog-details",
-        "postDate": "April 23, 2020",
-        "postTitle": "Ratione omnis consequuntur placeae consol fugit eaque vitae hic.",
-        "postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
-        "authorLink": "/"
-    },
-    {
-        "id": "6",
-        "postImg": "blog_c-08.jpg",
-        "authorImg": "author.jpg",
-        "authorName": "Medison Azar",
-        "postLink": "/blog-details",
-        "postDate": "April 23, 2020",
-        "postTitle": "Ratione omnis consequuntur placeae consol fugit eaque vitae hic.",
-        "postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
-        "authorLink": "/"
-    }
+	{
+		"id": "1",
+		"postImg": "news-01.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Medison Azar",
+		"postLink": "/blog-details",
+		"postDate": "April 23, 2020",
+		"postTitle": "SUNO Receives A Lecture Theatre.",
+		"postDesc": "The family of Alhaja Adiat Abegbe Makanjuola gifted a 500-capacity Lecture Theatre to Summit in her name.",
+		"authorLink": "#"
+	},
+	{
+		"id": "2",
+		"postImg": "news-02.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Medison Azar",
+		"postLink": "/blog-details",
+		"postDate": "April 23, 2020",
+		"postTitle": "Second Matriculation Ceremony",
+		"postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
+		"authorLink": "/"
+	},
+	{
+		"id": "3",
+		"postImg": "news-03.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Medison Azar",
+		"postLink": "/blog-details",
+		"postDate": "April 23, 2020",
+		"postTitle": "Students and Staff At The Maiden Orientation Exercise.",
+		"postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
+		"authorLink": "/"
+	},
+	{
+		"id": "4",
+		"postImg": "news-04.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Medison Azar",
+		"postLink": "/blog-details",
+		"postDate": "April 23, 2020",
+		"postTitle": "ADSN Lagos Donates 60 Bed-Space Hostel.",
+		"postDesc": "A 60 Bed-space Hostel was donated by ADSN Lagos State Council to Summit University.",
+		"authorLink": "/"
+	},
+	{
+		"id": "5",
+		"postImg": "news-05.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Medison Azar",
+		"postLink": "/blog-details",
+		"postDate": "April 23, 2020",
+		"postTitle": "Okebukola Visits Summit",
+		"postDesc": "UNESCO Consultant and former Executive Secretary, National Universities Commission, Professor Peter Okebukola paid a visit to Summit University, Offa.",
+		"authorLink": "/"
+	},
+	{
+		"id": "6",
+		"postImg": "news-06.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Medison Azar",
+		"postLink": "/blog-details",
+		"postDate": "April 23, 2020",
+		"postTitle": "Formal Inauguration and Maiden Matriculation Programme Ceremony.",
+		"postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
+		"authorLink": "/"
+	}
 ]

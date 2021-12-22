@@ -70,8 +70,8 @@ class Footer extends Component {
 											</Link>
 										</li>
 										<li>
-											<Link to={process.env.PUBLIC_URL + "/"}>
-												<i className="las la-angle-right"></i>Alumni Centre
+											<Link to={process.env.PUBLIC_URL + "/services"}>
+												<i className="las la-angle-right"></i>Services
 											</Link>
 										</li>
 										<li>

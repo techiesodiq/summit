@@ -122,7 +122,7 @@ class Header extends Component {
 											</Dropdown>
 										</li>
 									</ul>
-									<ul className="list-unstyled list-inline bar-login">
+									{/* <ul className="list-unstyled list-inline bar-login">
 										<li className="list-inline-item">
 											<Link to={process.env.PUBLIC_URL + "/login"}>
 												<i className="las la-user"></i>Log In
@@ -133,7 +133,7 @@ class Header extends Component {
 												<i className="las la-user-edit"></i>Register
 											</Link>
 										</li>
-									</ul>
+									</ul> */}
 								</div>
 							</Col>
 						</Row>
@@ -205,7 +205,7 @@ class Header extends Component {
 											<li className="nav-item dropdown">
 												<Link
 													className="nav-link dropdown-toggle"
-													to={process.env.PUBLIC_URL + "/home-two"}
+													to={process.env.PUBLIC_URL + "/services"}
 													data-toggle="dropdown"
 												>
 													Services<i className="las la-angle-down"></i>

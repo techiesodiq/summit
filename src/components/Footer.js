@@ -48,61 +48,67 @@ class Footer extends Component {
 							<Col md="4">
 								<div className="f-links">
 									<h5>Useful Links</h5>
-									<ul className="list-unstyled">
-										<li>
-											<Link to={process.env.PUBLIC_URL + "/projects"}>
-												<i className="las la-angle-right"></i>Projects
-											</Link>
-										</li>
-										<li>
-											<Link to={process.env.PUBLIC_URL + "/legacies"}>
-												<i className="las la-angle-right"></i>Legacies
-											</Link>
-										</li>
-										<li>
-											<Link to={process.env.PUBLIC_URL + "/about"}>
-												<i className="las la-angle-right"></i>About
-											</Link>
-										</li>
-										<li>
-											<Link to={process.env.PUBLIC_URL + "/services"}>
-												<i className="las la-angle-right"></i>Services
-											</Link>
-										</li>
-										<li>
-											<Link to={process.env.PUBLIC_URL + "/gallery"}>
-												<i className="las la-angle-right"></i>Gallery
-											</Link>
-										</li>
-									</ul>
+									<div
+										style={{
+											display: "flex",
+										}}
+									>
+										<ul style={{flex: "1.1"}} className="list-unstyled">
+											<li>
+												<Link to={process.env.PUBLIC_URL + "/projects"}>
+													<i className="las la-angle-right"></i>Projects
+												</Link>
+											</li>
+											<li>
+												<Link to={process.env.PUBLIC_URL + "/legacies"}>
+													<i className="las la-angle-right"></i>Legacies
+												</Link>
+											</li>
+											<li>
+												<Link to={process.env.PUBLIC_URL + "/about"}>
+													<i className="las la-angle-right"></i>About
+												</Link>
+											</li>
+											<li>
+												<Link to={process.env.PUBLIC_URL + "/services"}>
+													<i className="las la-angle-right"></i>Services
+												</Link>
+											</li>
+											<li>
+												<Link to={process.env.PUBLIC_URL + "/gallery"}>
+													<i className="las la-angle-right"></i>Gallery
+												</Link>
+											</li>
+										</ul>
 
-									<ul>
-										<li>
-											<Link to={process.env.PUBLIC_URL + "/"}>
-												<i className="las la-angle-right"></i>Privacy
-											</Link>
-										</li>
-										<li>
-											<Link to={process.env.PUBLIC_URL + "/contact"}>
-												<i className="las la-angle-right"></i>Contact
-											</Link>
-										</li>
-										<li>
-											<Link to={process.env.PUBLIC_URL + "/faq"}>
-												<i className="las la-angle-right"></i>FAQ
-											</Link>
-										</li>
-										<li>
-											<Link to={process.env.PUBLIC_URL + "/events"}>
-												<i className="las la-angle-right"></i>Events
-											</Link>
-										</li>
-										<li>
-											<Link to={process.env.PUBLIC_URL + "/coming-soon"}>
-												<i className="las la-angle-right"></i>Coming
-											</Link>
-										</li>
-									</ul>
+										<ul style={{flex: "1"}} className="list-unstyled">
+											<li>
+												<Link to={process.env.PUBLIC_URL + "/"}>
+													<i className="las la-angle-right"></i>Privacy
+												</Link>
+											</li>
+											<li>
+												<Link to={process.env.PUBLIC_URL + "/contact"}>
+													<i className="las la-angle-right"></i>Contact
+												</Link>
+											</li>
+											<li>
+												<Link to={process.env.PUBLIC_URL + "/faq"}>
+													<i className="las la-angle-right"></i>FAQ
+												</Link>
+											</li>
+											<li>
+												<Link to={process.env.PUBLIC_URL + "/events"}>
+													<i className="las la-angle-right"></i>Events
+												</Link>
+											</li>
+											<li>
+												<Link to={process.env.PUBLIC_URL + "/coming-soon"}>
+													<i className="las la-angle-right"></i>Coming
+												</Link>
+											</li>
+										</ul>
+									</div>
 								</div>
 							</Col>
 							<Col md="4">
@@ -112,15 +118,15 @@ class Footer extends Component {
 										<div className="post-img">
 											<img
 												src={
-													process.env.PUBLIC_URL + "/assets/images/blog-2.jpg"
+													process.env.PUBLIC_URL + "/assets/images/blog-004.jpg"
 												}
 												alt=""
 											/>
 										</div>
 										<div className="post-content">
-											<Link to={process.env.PUBLIC_URL + "/blog-details"}>
-												Lorem ipsum dolor sit amet consectet adipisicing elit
-												com...
+											<Link to={process.env.PUBLIC_URL + "/blog-grid"}>
+												A 60 bed-space hostel was donated by ADSN Lagos State
+												Council to Summit University
 											</Link>
 											<span>Mar 30, 2020</span>
 										</div>
@@ -129,15 +135,15 @@ class Footer extends Component {
 										<div className="post-img">
 											<img
 												src={
-													process.env.PUBLIC_URL + "/assets/images/blog-3.jpg"
+													process.env.PUBLIC_URL + "/assets/images/blog01.jpg"
 												}
 												alt=""
 											/>
 										</div>
 										<div className="post-content">
-											<Link to={process.env.PUBLIC_URL + "/blog-details"}>
-												Lorem ipsum dolor sit amet consectet adipisicing elit
-												com...
+											<Link to={process.env.PUBLIC_URL + "/blog-grid"}>
+												SUNO receives a 500-capacity Lecture Theatre in honour
+												of Alhaja Makanjuola...
 											</Link>
 											<span>Mar 30, 2020</span>
 										</div>

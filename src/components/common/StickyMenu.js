@@ -28,6 +28,7 @@ function StickyMenu() {
 							<div className="logo">
 								<Link to={process.env.PUBLIC_URL + "/"}>
 									<img
+										style={{objectFit: "cover", width: "20%", height: "20%"}}
 										src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
 										alt=""
 									/>

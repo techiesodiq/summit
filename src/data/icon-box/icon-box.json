@@ -4,20 +4,20 @@
 		"uniqClass": "box-icon box1",
 		"boxIcon": "flaticon-thumbs-like",
 		"title": "Fund A Research",
-		"subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+		"subTitle": "You can fund any of our research that pique your interest."
 	},
 	{
 		"id": "2",
 		"uniqClass": "box-icon box2",
 		"boxIcon": "flaticon-reading",
 		"title": "Sponsor A Student",
-		"subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+		"subTitle": "What if you put a smile on a student's face today?"
 	},
 	{
 		"id": "3",
 		"uniqClass": "box-icon box3",
 		"boxIcon": "flaticon-teacher",
 		"title": "Professorial Chair",
-		"subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+		"subTitle": "How about sponsoring a scholar's professorial chair?"
 	}
 ]

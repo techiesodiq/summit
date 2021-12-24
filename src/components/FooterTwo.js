@@ -58,12 +58,7 @@ function FooterTwo() {
 					<Row>
 						<Col md="3">
 							<div className="footer-logo-info">
-								<img
-									src={process.env.PUBLIC_URL + "/assets/images/f-logo.png"}
-									alt=""
-									className="img-fluid"
-								/>
-								<p style={{marginBottom: "0px", paddingBottom: "0px"}}>
+								<p style={{marginTop: "5px"}}>
 									Summit University, Offa is a private university established to
 									offer qualitative tertiary education to students irrespective
 									of nationality, ethnicity, creed and religion.
@@ -89,7 +84,7 @@ function FooterTwo() {
 								<h5>Useful Links</h5>
 								<ul className="list-unstyled">
 									<li>
-										<Link to={process.env.PUBLIC_URL + "/"}>
+										<Link to={process.env.PUBLIC_URL + "/projects"}>
 											<i className="las la-angle-right"></i>Projects
 										</Link>
 									</li>

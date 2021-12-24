@@ -24,12 +24,7 @@ class Footer extends Component {
 						<Row>
 							<Col md="4">
 								<div className="footer-logo-info">
-									<img
-										src={process.env.PUBLIC_URL + "/assets/images/f-logo.png"}
-										alt=""
-										className="img-fluid"
-									/>
-									<p style={{marginBottom: "0px", paddingBottom: "0px"}}>
+									<p style={{marginTop: "5px"}}>
 										Summit University, Offa is a private university established
 										to offer qualitative tertiary education to students
 										irrespective of nationality, ethnicity, creed and religion.
@@ -55,7 +50,7 @@ class Footer extends Component {
 									<h5>Useful Links</h5>
 									<ul className="list-unstyled">
 										<li>
-											<Link to={process.env.PUBLIC_URL + "/"}>
+											<Link to={process.env.PUBLIC_URL + "/projects"}>
 												<i className="las la-angle-right"></i>Projects
 											</Link>
 										</li>
@@ -66,7 +61,7 @@ class Footer extends Component {
 										</li>
 										<li>
 											<Link to={process.env.PUBLIC_URL + "/about"}>
-												<i className="las la-angle-right"></i>About Us
+												<i className="las la-angle-right"></i>About
 											</Link>
 										</li>
 										<li>
@@ -80,15 +75,16 @@ class Footer extends Component {
 											</Link>
 										</li>
 									</ul>
-									<ul className="list-unstyled">
+
+									<ul>
 										<li>
 											<Link to={process.env.PUBLIC_URL + "/"}>
-												<i className="las la-angle-right"></i>Privacy Policy
+												<i className="las la-angle-right"></i>Privacy
 											</Link>
 										</li>
 										<li>
 											<Link to={process.env.PUBLIC_URL + "/contact"}>
-												<i className="las la-angle-right"></i>Contact Us
+												<i className="las la-angle-right"></i>Contact
 											</Link>
 										</li>
 										<li>
@@ -103,7 +99,7 @@ class Footer extends Component {
 										</li>
 										<li>
 											<Link to={process.env.PUBLIC_URL + "/coming-soon"}>
-												<i className="las la-angle-right"></i>Coming Soon
+												<i className="las la-angle-right"></i>Coming
 											</Link>
 										</li>
 									</ul>

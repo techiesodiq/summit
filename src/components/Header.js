@@ -26,7 +26,7 @@ class Header extends Component {
 										</li>
 										<li className="list-inline-item">
 											<Link to={process.env.PUBLIC_URL + "/faq"}>
-												Have Questions
+												Have Questions?
 											</Link>
 										</li>
 									</ul>
@@ -148,6 +148,7 @@ class Header extends Component {
 								<div className="logo">
 									<Link to={process.env.PUBLIC_URL + "/"}>
 										<img
+											style={{objectFit: "cover", width: "20%", height: "20%"}}
 											src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
 											alt=""
 										/>

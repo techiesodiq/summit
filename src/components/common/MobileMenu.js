@@ -2,7 +2,7 @@
 
 import React, {useEffect} from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import {Link} from "react-router-dom";
+import {Link, useHistory} from "react-router-dom";
 import {Styles} from "./styles/mobileMenu.js";
 
 function MobileMenu() {
@@ -51,6 +51,8 @@ function MobileMenu() {
 			});
 		});
 	});
+
+	const history = useHistory();
 
 	return (
 		<Styles>
@@ -130,179 +132,148 @@ function MobileMenu() {
 					</div>
 				</div>
 				<div className="mb-sidebar-menu">
+					<div
+						style={{paddingTop: "10px", paddingBottom: "10px"}}
+						className="mb-menu-item"
+					>
+						<Link
+							style={{
+								textDecoration: "none",
+								color: "black",
+								fontSize: "14px",
+							}}
+							to={process.env.PUBLIC_URL + "/"}
+						>
+							HOME
+						</Link>
+					</div>
 					<div className="mb-menu-item">
 						<button className="mb-menu-button active">
-							<p>
-								Home <i className="las la-plus"></i>
-							</p>
+							<Link
+								to={process.env.PUBLIC_URL + "/services"}
+								style={{
+									textDecoration: "none",
+									color: "black",
+									fontSize: "14px",
+								}}
+							>
+								SERVICES <i className="las la-plus"></i>
+							</Link>
 						</button>
 						<div className="mb-menu-content show">
 							<ul className="list-unstyled">
 								<li>
-									<Link to={process.env.PUBLIC_URL + "/"}>Home Style 1</Link>
+									<Link to={process.env.PUBLIC_URL + "/endowment"}>
+										Endowment
+									</Link>
 								</li>
 								<li>
-									<Link to={process.env.PUBLIC_URL + "/home-two"}>
-										Home Style 2
+									<Link to={process.env.PUBLIC_URL + "/research-grants"}>
+										Research Grants
+									</Link>
+								</li>
+								<li>
+									<Link to={process.env.PUBLIC_URL + "/professorial-chairs"}>
+										Professorial Chairs
+									</Link>
+								</li>
+								<li>
+									<Link to={process.env.PUBLIC_URL + "/students-scholarship"}>
+										Students' Scholarship
+									</Link>
+								</li>
+								<li>
+									<Link to={process.env.PUBLIC_URL + "/investment"}>
+										Investment
+									</Link>
+								</li>
+								{/* <li>
+									<Link to={process.env.PUBLIC_URL + "/students-affairs"}>
+										Students' Affairs
+									</Link>
+								</li> */}
+								<li>
+									<Link to={process.env.PUBLIC_URL + "/business-ventures"}>
+										Business Ventures
 									</Link>
 								</li>
 							</ul>
 						</div>
 					</div>
-					<div className="mb-menu-item">
-						<button className="mb-menu-button active">
-							<p>
-								Pages <i className="las la-plus"></i>
-							</p>
-						</button>
-						<div className="mb-menu-content show">
-							<ul className="list-unstyled">
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/about"}>About Us</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/gallery"}>Gallery</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/login"}>Log In</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/registration"}>
-										Registration
-									</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/faq"}>Faq</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/404"}>404</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/coming-soon"}>
-										Coming Soon
-									</Link>
-								</li>
-							</ul>
-						</div>
+					<div
+						style={{paddingTop: "10px", paddingBottom: "10px"}}
+						className="mb-menu-item"
+					>
+						<Link
+							style={{
+								textDecoration: "none",
+								color: "black",
+								fontSize: "14px",
+							}}
+							to={process.env.PUBLIC_URL + "/projects"}
+						>
+							PROJECTS
+						</Link>
 					</div>
-					<div className="mb-menu-item">
-						<button className="mb-menu-button active">
-							<p>
-								Courses <i className="las la-plus"></i>
-							</p>
-						</button>
-						<div className="mb-menu-content show">
-							<ul className="list-unstyled">
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/course-grid"}>
-										Course Grid
-									</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/course-list"}>
-										Course List
-									</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/course-details"}>
-										Course Details
-									</Link>
-								</li>
-							</ul>
-						</div>
+					<div
+						style={{paddingTop: "10px", paddingBottom: "10px"}}
+						className="mb-menu-item"
+					>
+						<Link
+							style={{
+								textDecoration: "none",
+								color: "black",
+								fontSize: "14px",
+							}}
+							to={process.env.PUBLIC_URL + "/legacies"}
+						>
+							LEGACIES
+						</Link>
 					</div>
-					<div className="mb-menu-item">
-						<button className="mb-menu-button">
-							<p>
-								Instructor <i className="las la-plus"></i>
-							</p>
-						</button>
-						<div className="mb-menu-content">
-							<ul className="list-unstyled">
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/instructor"}>
-										Instructors
-									</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/instructor-details"}>
-										Instructor Details
-									</Link>
-								</li>
-							</ul>
-						</div>
+					<div
+						style={{paddingTop: "10px", paddingBottom: "10px"}}
+						className="mb-menu-item"
+					>
+						<Link
+							style={{
+								textDecoration: "none",
+								color: "black",
+								fontSize: "14px",
+							}}
+							to={process.env.PUBLIC_URL + "/"}
+						>
+							ALUMNI
+						</Link>
 					</div>
-					<div className="mb-menu-item">
-						<button className="mb-menu-button">
-							<p>
-								Event <i className="las la-plus"></i>
-							</p>
-						</button>
-						<div className="mb-menu-content">
-							<ul className="list-unstyled">
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/events"}>Events</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/event-details"}>
-										Event Details
-									</Link>
-								</li>
-							</ul>
-						</div>
+					<div
+						style={{paddingTop: "10px", paddingBottom: "10px"}}
+						className="mb-menu-item"
+					>
+						<Link
+							style={{
+								textDecoration: "none",
+								color: "black",
+								fontSize: "14px",
+							}}
+							to={process.env.PUBLIC_URL + "/blog-grid"}
+						>
+							NEWS
+						</Link>
 					</div>
-					<div className="mb-menu-item">
-						<button className="mb-menu-button">
-							<p>
-								Blog <i className="las la-plus"></i>
-							</p>
-						</button>
-						<div className="mb-menu-content">
-							<ul className="list-unstyled">
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/blog-classic"}>
-										Blog Classic
-									</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/blog-grid"}>
-										Blog Grid
-									</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/blog-details"}>
-										Blog Details
-									</Link>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div className="mb-menu-item">
-						<button className="mb-menu-button">
-							<p>
-								Shop <i className="las la-plus"></i>
-							</p>
-						</button>
-						<div className="mb-menu-content">
-							<ul className="list-unstyled">
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/products"}>
-										Products
-									</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/product-details"}>
-										Product Details
-									</Link>
-								</li>
-								<li>
-									<Link to={process.env.PUBLIC_URL + "/cart"}>Cart</Link>
-								</li>
-							</ul>
-						</div>
+					<div
+						style={{paddingTop: "10px", paddingBottom: "10px"}}
+						className="mb-menu-item"
+					>
+						<Link
+							style={{
+								textDecoration: "none",
+								color: "black",
+								fontSize: "14px",
+							}}
+							to={process.env.PUBLIC_URL + "/contact"}
+						>
+							CONTACT
+						</Link>
 					</div>
 				</div>
 			</section>

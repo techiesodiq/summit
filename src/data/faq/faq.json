@@ -1,42 +1,42 @@
 [
-    {
-        "id": "1",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
-    },
-    {
-        "id": "2",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
-    },
-    {
-        "id": "3",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
-    },
-    {
-        "id": "4",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
-    },
-    {
-        "id": "5",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
-    },
-    {
-        "id": "6",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
-    },
-    {
-        "id": "7",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
-    },
-    {
-        "id": "8",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
-    }
+	{
+		"id": "1",
+		"faqTitle": "How do you choose the projects that you raise funds for?",
+		"faqDesc": "Our fundraising campaigns are for projects that have philanthropic appeal and are integral to the delivery of the University's strategic plan."
+	},
+	{
+		"id": "2",
+		"faqTitle": "I know somebody who wants to make a gift to the University – what should I do?",
+		"faqDesc": "Many donations come about because of personal contact, and we are happy to offer advice and help to those who are talking to a potential donor. We will also be guided by the contact you would wish us to have with that donor, and would only contact them with your agreement."
+	},
+	{
+		"id": "3",
+		"faqTitle": "I want to make a gift.  How can I give? Whom do I call? Where do I mail my check?",
+		"faqDesc": "You have a number of options.  You may make your gift via a credit card on this website, call our hotline on -234-802-735-2041, or mail us at info@suab.org"
+	},
+	{
+		"id": "4",
+		"faqTitle": "How will you use my unrestricted gift?",
+		"faqDesc": "Annual fund gifts of all sizes, particularly unrestricted donations, are one way of providing critical support for Summit University.  These gifts enable the Foundation to use the funds for its greatest immediate needs."
+	},
+	{
+		"id": "5",
+		"faqTitle": "Can I restrict my gift to a specific purpose (make a restricted gift)? ",
+		"faqDesc": "Yes. Many alumni and friends designate their gifts for purposes or programs that are particularly meaningful to them. Please visit the Projects page to different projects."
+	},
+	{
+		"id": "6",
+		"faqTitle": "Is there a limit to how much (or little) I can give online?",
+		"faqDesc": "There is no limit to how much (or little) you can give online."
+	},
+	{
+		"id": "7",
+		"faqTitle": "Can I donate anonymously?",
+		"faqDesc": "Yes. Please let us know if you wish to give anonymously."
+	},
+	{
+		"id": "8",
+		"faqTitle": "I travel on University business - can I help the University maintain its relationships with alumni?",
+		"faqDesc": "Yes. Please let us know about your trip with as much notice as possible. The University has many Alumni Associations based all over the world and they love to welcome visiting members of staff. Similarly if you are visiting a location where we do not yet have an official group, then you may be able to help us set one up by meeting some of the local alumni and encouraging them to get involved."
+	}
 ]

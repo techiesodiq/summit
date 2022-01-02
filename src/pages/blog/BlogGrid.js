@@ -7,7 +7,6 @@ import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import FooterTwo from "../../components/FooterTwo";
 import HeaderTwo from "../../components/HeaderTwo";
 import Datas from "../../data/blog/grid.json";
-import Pagination from "./../../components/Pagination";
 import BlogSidebar from "./components/BlogSidebar";
 import {Styles} from "./styles/blog.js";
 
@@ -95,9 +94,7 @@ class BlogGrid extends Component {
 										))}
 									</Row>
 
-									<div className="text-center">
-										<Pagination />
-									</div>
+									<div className="text-center">{/* <Pagination /> */}</div>
 								</Col>
 								<Col lg="3" md="4" sm="5">
 									<BlogSidebar />

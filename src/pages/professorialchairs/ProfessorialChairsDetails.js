@@ -59,7 +59,7 @@ class BlogDetails extends Component {
 											</div> */}
 											<div className="post-date">
 												<p>
-													<i className="las la-calendar"></i> December 19, 2021
+													<i className="las la-calendar"></i> January 19, 2022
 												</p>
 											</div>
 											<div className="post-category">

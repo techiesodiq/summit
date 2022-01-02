@@ -10,6 +10,7 @@ import PageNotFound from "./pages/404/PageNotFound";
 import About from "./pages/about/About";
 import Login from "./pages/account/Login";
 import Register from "./pages/account/Register";
+import Alumni from "./pages/alumni/AlumniDetails";
 import BlogClassic from "./pages/blog/BlogClassic";
 import BlogDetails from "./pages/blog/BlogDetails";
 import BlogGrid from "./pages/blog/BlogGrid";
@@ -151,6 +152,10 @@ function App() {
 				<Route
 					path={`${process.env.PUBLIC_URL + "/legacies"}`}
 					component={Legacies}
+				/>
+				<Route
+					path={`${process.env.PUBLIC_URL + "/alumni"}`}
+					component={Alumni}
 				/>
 				<Route
 					path={`${process.env.PUBLIC_URL + "/products"}`}

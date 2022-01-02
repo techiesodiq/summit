@@ -119,8 +119,10 @@ class TabBox extends Component {
 												<div style={{flex: "1.5"}}>
 													<h4 className="tab-title">Our Mission</h4>
 													<p className="tab-desc">
-														To be a topmost agency for personal fulfillment as
-														well as national development.
+														To ensure that Summit University, Offa has financial
+														resources to confidentially grow,maintain and expand
+														its leadership in education and research for current
+														and future generations.
 													</p>
 												</div>
 												<div style={{flex: "1"}}>

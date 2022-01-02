@@ -1,48 +1,48 @@
 {
-    "eventDataList": [
-        {
-            "id": "1",
-            "eventDate": "25 March",
-            "eventTitle": "2020 admidion fair going on this week",
-            "eventTime": "5:30pm - 7.00pm",
-            "eventLocation": "Newyork,NY.",
-            "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
-            "eventLink": "/event-details"
-        },
-        {
-            "id": "2",
-            "eventDate": "25 March",
-            "eventTitle": "2020 admidion fair going on this week",
-            "eventTime": "5:30pm - 7.00pm",
-            "eventLocation": "Newyork,NY.",
-            "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
-            "eventLink": "/event-details"
-        },
-        {
-            "id": "3",
-            "eventDate": "25 March",
-            "eventTitle": "2020 admidion fair going on this week",
-            "eventTime": "5:30pm - 7.00pm",
-            "eventLocation": "Newyork,NY.",
-            "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
-            "eventLink": "/event-details"
-        }
-    ],
-    "faqDataList": [
-        {
-            "id": "1",
-            "faqTitle": "I don't know What should I write here?",
-            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon."
-        },
-        {
-            "id": "2",
-            "faqTitle": "I don't know What should I write here?",
-            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid."
-        },
-        {
-            "id": "3",
-            "faqTitle": "I don't know What should I write here?",
-            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon."
-        }
-    ]
+	"eventDataList": [
+		{
+			"id": "1",
+			"eventDate": "25 March",
+			"eventTitle": "Alumni Quarterly Engagement.",
+			"eventTime": "10:00am - 1.00pm",
+			"eventLocation": "Virtual.",
+			"eventdesc": "A quarterly meeting of all university alumni",
+			"eventLink": "/event"
+		},
+		{
+			"id": "2",
+			"eventDate": "03 May",
+			"eventTitle": "2022 Alumni Annual Get-together",
+			"eventTime": "9:00am - 4.00pm",
+			"eventLocation": "SUNO Campus.",
+			"eventdesc": "An annual gathering of Summit old students.",
+			"eventLink": "/event"
+		},
+		{
+			"id": "3",
+			"eventDate": "02 Dec",
+			"eventTitle": "Stakeholders' Open House and Account of Stewardship.",
+			"eventTime": "10:00am - 3.00pm",
+			"eventLocation": "SUNO Campus.",
+			"eventdesc": "An annual report to give stewardship of all the activities embarked by the bureau",
+			"eventLink": "/event"
+		}
+	],
+	"faqDataList": [
+		{
+			"id": "1",
+			"faqTitle": "I want to make a gift. How can I give? Whom do I call?",
+			"faqDesc": "You have a number of options.  You may make your gift via a credit card on this website, call our hotline on -234-802-735-2041, or mail us at info@suab.org."
+		},
+		{
+			"id": "2",
+			"faqTitle": "Is there a limit to how much (or little) I can give online?",
+			"faqDesc": "There is no limit to how much (or little) you can give online."
+		},
+		{
+			"id": "3",
+			"faqTitle": "How do you choose the projects that you raise funds for?",
+			"faqDesc": "Our fundraising campaigns are for projects that have philanthropic appeal and are integral to the delivery of the University's strategic plan."
+		}
+	]
 }

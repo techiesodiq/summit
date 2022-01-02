@@ -1,72 +1,52 @@
 [
-    {
-        "id": "1",
-        "eventImg": "event-01.jpg",
-        "eventDate": "25 March",
-        "eventTitle": "Ratione omnis consequuntur placeae consol.",
-        "eventTime": "7:30pm",
-        "eventLocation": "795 South Park Avenue, CA 94107.",
-        "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-        "eventLink": "/event-details"
-    },
-    {
-        "id": "2",
-        "eventImg": "event-02.jpg",
-        "eventDate": "25 March",
-        "eventTitle": "Ratione omnis consequuntur placeae consol.",
-        "eventTime": "7:30pm",
-        "eventLocation": "795 South Park Avenue, CA 94107.",
-        "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-        "eventLink": "/event-details"
-    },
-    {
-        "id": "3",
-        "eventImg": "event-03.jpg",
-        "eventDate": "25 March",
-        "eventTitle": "Ratione omnis consequuntur placeae consol.",
-        "eventTime": "7:30pm",
-        "eventLocation": "795 South Park Avenue, CA 94107.",
-        "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-        "eventLink": "/event-details"
-    },
-    {
-        "id": "4",
-        "eventImg": "event-04.jpg",
-        "eventDate": "25 March",
-        "eventTitle": "Ratione omnis consequuntur placeae consol.",
-        "eventTime": "7:30pm",
-        "eventLocation": "795 South Park Avenue, CA 94107.",
-        "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-        "eventLink": "/event-details"
-    },
-    {
-        "id": "5",
-        "eventImg": "event-05.jpg",
-        "eventDate": "25 March",
-        "eventTitle": "Ratione omnis consequuntur placeae consol.",
-        "eventTime": "7:30pm",
-        "eventLocation": "795 South Park Avenue, CA 94107.",
-        "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-        "eventLink": "/event-details"
-    },
-    {
-        "id": "6",
-        "eventImg": "event-06.jpg",
-        "eventDate": "25 March",
-        "eventTitle": "Ratione omnis consequuntur placeae consol.",
-        "eventTime": "7:30pm",
-        "eventLocation": "795 South Park Avenue, CA 94107.",
-        "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-        "eventLink": "/event-details"
-    },
-    {
-        "id": "7",
-        "eventImg": "event-07.jpg",
-        "eventDate": "25 March",
-        "eventTitle": "Ratione omnis consequuntur placeae consol.",
-        "eventTime": "7:30pm",
-        "eventLocation": "795 South Park Avenue, CA 94107.",
-        "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-        "eventLink": "/event-details"
-    }
+	{
+		"id": "1",
+		"eventImg": "alumnus.png",
+		"eventDate": "25 March",
+		"eventTitle": "Alumni Quarterly Engagement.",
+		"eventTime": "10:00am",
+		"eventLocation": "Google Meet (Links to be shared soon).",
+		"eventdesc": "A quarterly gathering where all the members of the university alumni body meet to discuss issues pertaining to the university.",
+		"eventLink": "#"
+	},
+	{
+		"id": "2",
+		"eventImg": "tour-6.jpg",
+		"eventDate": "03 May",
+		"eventTitle": "Alumni Annual Get-together.",
+		"eventTime": "9:00am",
+		"eventLocation": "Summit University, Offa Campus.",
+		"eventdesc": "This is an annual event organized by the Alumni body to gather all the members together, interact and discuss about national issues.",
+		"eventLink": "#"
+	},
+	{
+		"id": "3",
+		"eventImg": "propose.jpg",
+		"eventDate": "20 May",
+		"eventTitle": "Submitting an Award Winning Proposal.",
+		"eventTime": "2:00pm",
+		"eventLocation": "Google Meet (Links to be shared soon).",
+		"eventdesc": "The workshop is organized by the Bureau in conjunction with the University's Directorate of Research to enlighten the researchers on winning research grants.",
+		"eventLink": "#"
+	},
+	{
+		"id": "4",
+		"eventImg": "theater.jpg",
+		"eventDate": "02 Dec",
+		"eventTitle": "Stakeholders' Open House and Account of Stewardship.",
+		"eventTime": "10:00am",
+		"eventLocation": "Summit University, Offa Campus.",
+		"eventdesc": "This is an annual program organized by the bureau to give stewardship of all the activities embarked by the bureau vis-a-vis the development of the university.",
+		"eventLink": "#"
+	},
+	{
+		"id": "5",
+		"eventImg": "ramadan.jpg",
+		"eventDate": "25 April",
+		"eventTitle": "Summit Alumni Annual Ramadhan Lecture.",
+		"eventTime": "12:00pm",
+		"eventLocation": "Summit University, Offa Campus.",
+		"eventdesc": "An annual Ramadhan Lecture organized to educate the muslim community about the importance of Ramadhan and the values to uphold in the blessed month.",
+		"eventLink": "#"
+	}
 ]

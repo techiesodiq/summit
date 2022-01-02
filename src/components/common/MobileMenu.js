@@ -2,7 +2,7 @@
 
 import React, {useEffect} from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import {Link, useHistory} from "react-router-dom";
+import {Link} from "react-router-dom";
 import {Styles} from "./styles/mobileMenu.js";
 
 function MobileMenu() {
@@ -51,8 +51,6 @@ function MobileMenu() {
 			});
 		});
 	});
-
-	const history = useHistory();
 
 	return (
 		<Styles>
@@ -240,7 +238,7 @@ function MobileMenu() {
 								color: "black",
 								fontSize: "14px",
 							}}
-							to={process.env.PUBLIC_URL + "/"}
+							to={process.env.PUBLIC_URL + "/alumni"}
 						>
 							ALUMNI
 						</Link>

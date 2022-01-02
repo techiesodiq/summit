@@ -89,12 +89,12 @@ class CourseSlider extends Component {
 												</h6>
 												<p className="desc">{data.courseDesc}</p>
 												<div className="course-face d-flex justify-content-between">
-													<div className="duration">
+													{/* <div className="duration">
 														<p>
 															<i className="las la-clock"></i>120
 														</p>
-													</div>
-													<div className="rating">
+													</div> */}
+													{/* <div className="rating">
 														<ul className="list-unstyled list-inline">
 															<li className="list-inline-item">
 																<i className="las la-star"></i>
@@ -113,7 +113,7 @@ class CourseSlider extends Component {
 															</li>
 															<li className="list-inline-item">(4.5)</li>
 														</ul>
-													</div>
+													</div> */}
 													<div className="student">
 														<p>
 															<i className="las la-chair"></i>60

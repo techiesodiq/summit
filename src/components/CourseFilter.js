@@ -1,10 +1,10 @@
 /** @format */
 
-import React, {useEffect} from "react";
-import {Col, Container, Row} from "react-bootstrap";
-import {Link} from "react-router-dom";
+import React, { useEffect } from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Datas from "../data/course/filter.json";
-import {Styles} from "./styles/courseFilter.js";
+import { Styles } from "./styles/courseFilter.js";
 
 function CourseFilter() {
 	useEffect(() => {
@@ -116,11 +116,11 @@ function CourseFilter() {
 												<p className="desc">{data.courseDesc}</p>
 												<div className="course-face d-flex justify-content-between">
 													<div className="duration">
-														<p>
+														{/* <p>
 															<i className="las la-clock"></i>120
-														</p>
+														</p> */}
 													</div>
-													<div className="rating">
+													{/* <div className="rating">
 														<ul className="list-unstyled list-inline">
 															<li className="list-inline-item">
 																<i className="las la-star"></i>
@@ -139,7 +139,7 @@ function CourseFilter() {
 															</li>
 															<li className="list-inline-item">(4.5)</li>
 														</ul>
-													</div>
+													</div> */}
 													<div className="student">
 														<p>
 															<i className="las la-chair"></i>60

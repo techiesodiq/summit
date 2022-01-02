@@ -4,7 +4,6 @@ import React, {Component, Fragment} from "react";
 import {Col} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import Datas from "../../../data/course/item.json";
-import Pagination from "./../../../components/Pagination";
 
 class CourseItemGrid extends Component {
 	render() {
@@ -80,7 +79,7 @@ class CourseItemGrid extends Component {
 				))}
 
 				<Col md="12" className="text-center">
-					<Pagination />
+					{/* <Pagination /> */}
 				</Col>
 			</Fragment>
 		);

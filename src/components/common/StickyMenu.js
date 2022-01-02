@@ -87,14 +87,14 @@ function StickyMenu() {
 													Investment
 												</Link>
 											</li>
-											<li className="nav-item">
+											{/* <li className="nav-item">
 												<Link
 													className="nav-link"
 													to={process.env.PUBLIC_URL + "/students-affairs"}
 												>
 													Students' Affairs
 												</Link>
-											</li>
+											</li> */}
 											<li className="nav-item">
 												<Link
 													className="nav-link"

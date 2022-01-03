@@ -31,7 +31,7 @@ class PopularCourse extends Component {
 											{data.courseTitle}
 										</Link>
 									</p>
-									<ul className="list-unstyled list-inline rating">
+									{/* <ul className="list-unstyled list-inline rating">
 										<li className="list-inline-item">
 											<i className="las la-star"></i>
 										</li>
@@ -47,7 +47,7 @@ class PopularCourse extends Component {
 										<li className="list-inline-item">
 											<i className="las la-star"></i>
 										</li>
-									</ul>
+									</ul> */}
 									<p className="price">{data.price}</p>
 								</div>
 							</div>

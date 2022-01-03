@@ -1,10 +1,10 @@
 /** @format */
 
-import React, { useEffect } from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import React, {useEffect} from "react";
+import {Col, Container, Row} from "react-bootstrap";
+import {Link} from "react-router-dom";
 import Datas from "../data/course/filter.json";
-import { Styles } from "./styles/courseFilter.js";
+import {Styles} from "./styles/courseFilter.js";
 
 function CourseFilter() {
 	useEffect(() => {
@@ -115,7 +115,24 @@ function CourseFilter() {
 												</h6>
 												<p className="desc">{data.courseDesc}</p>
 												<div className="course-face d-flex justify-content-between">
-													<div className="duration">
+													<div>
+														<button
+															style={{
+																fontSize: "14px",
+																color: "#fff",
+																background:
+																	"linear-gradient(90deg, #11B67A 0%, #009444 100%)",
+																display: "inline-block",
+																width: "110px",
+																height: "40px",
+																textAlign: "center",
+																padding: "11px",
+																borderRadius: "5px",
+																marginTop: "0px",
+															}}
+														>
+															Give Now
+														</button>
 														{/* <p>
 															<i className="las la-clock"></i>120
 														</p> */}
@@ -140,11 +157,11 @@ function CourseFilter() {
 															<li className="list-inline-item">(4.5)</li>
 														</ul>
 													</div> */}
-													<div className="student">
+													{/* <div className="student">
 														<p>
 															<i className="las la-chair"></i>60
 														</p>
-													</div>
+													</div> */}
 												</div>
 											</div>
 										</div>

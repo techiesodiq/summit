@@ -1,7 +1,7 @@
 [
 	{
 		"id": "1",
-		"faqTitle": "How do you choose the projects that you raise funds for?",
+		"faqTitle": "How do you choose the projects to fund?",
 		"faqDesc": "Our fundraising campaigns are for projects that have philanthropic appeal and are integral to the delivery of the University's strategic plan."
 	},
 	{
@@ -11,8 +11,8 @@
 	},
 	{
 		"id": "3",
-		"faqTitle": "I want to make a gift.  How can I give? Whom do I call? Where do I mail my check?",
-		"faqDesc": "You have a number of options.  You may make your gift via a credit card on this website, call our hotline on -234-802-735-2041, or mail us at info@suab.org"
+		"faqTitle": "I want to make a gift. How can I give?",
+		"faqDesc": "You have a number of options.  You may make your gift via a credit card on this website, call our hotline on -234-802-735-2041, or mail us at info@suab.org."
 	},
 	{
 		"id": "4",
@@ -26,8 +26,8 @@
 	},
 	{
 		"id": "6",
-		"faqTitle": "Is there a limit to how much (or little) I can give online?",
-		"faqDesc": "There is no limit to how much (or little) you can give online."
+		"faqTitle": "Is there a limit to how much I can donate?",
+		"faqDesc": "There is no limit to how much (or little) you can give online or offline."
 	},
 	{
 		"id": "7",

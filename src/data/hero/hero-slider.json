@@ -6,7 +6,7 @@
 		"title": "Welcome To Summit University Advancement Bureau.",
 		"desc": "Let's Sustain Summit for Current and Future Generation",
 		"btnOneLink": "projects",
-		"btnTwoLink": "contact"
+		"btnTwoLink": "#"
 	},
 	{
 		"id": "2",
@@ -15,6 +15,6 @@
 		"title": "Give To Summit.",
 		"desc": "Support Us for Quality Learning, Teaching, and Research",
 		"btnOneLink": "projects",
-		"btnTwoLink": "contact"
+		"btnTwoLink": "#"
 	}
 ]

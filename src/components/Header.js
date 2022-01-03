@@ -1,10 +1,9 @@
 /** @format */
 
 import React, {Component} from "react";
-import {Col, Container, Dropdown, Row} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import MobileMenu from "./common/MobileMenu";
-import Search from "./common/Search";
 import Sidebar from "./common/Sidebar";
 import StickyMenu from "./common/StickyMenu";
 import {Styles} from "./styles/header.js";
@@ -57,7 +56,7 @@ class Header extends Component {
 										</li>
 									</ul>
 									<ul className="list-unstyled list-inline bar-lang">
-										<li className="list-inline-item">
+										{/* <li className="list-inline-item">
 											<Dropdown>
 												<Dropdown.Toggle as="a">
 													<img
@@ -120,7 +119,7 @@ class Header extends Component {
 													</Dropdown.Item>
 												</Dropdown.Menu>
 											</Dropdown>
-										</li>
+										</li> */}
 									</ul>
 									{/* <ul className="list-unstyled list-inline bar-login">
 										<li className="list-inline-item">
@@ -176,7 +175,7 @@ class Header extends Component {
 										</div>
 									</div>
 									<div className="apply-btn">
-										<Link to={process.env.PUBLIC_URL + "/registration"}>
+										<Link to={process.env.PUBLIC_URL + "/"}>
 											<i className="las la-clipboard-list"></i>Give Now
 										</Link>
 									</div>
@@ -256,14 +255,14 @@ class Header extends Component {
 															Investment
 														</Link>
 													</li>
-													<li className="nav-item">
+													{/* <li className="nav-item">
 														<Link
 															className="nav-link"
 															to={process.env.PUBLIC_URL + "/students-affairs"}
 														>
 															Students' Affairs
 														</Link>
-													</li>
+													</li> */}
 													<li className="nav-item">
 														<Link
 															className="nav-link"
@@ -295,7 +294,7 @@ class Header extends Component {
 											<li className="nav-item dropdown">
 												<Link
 													className="nav-link dropdown-toggle"
-													to={process.env.PUBLIC_URL + "/"}
+													to={process.env.PUBLIC_URL + "/alumni"}
 													data-toggle="dropdown"
 												>
 													Alumni
@@ -321,17 +320,17 @@ class Header extends Component {
 											</li>
 										</ul>
 										<ul className="nav search-cart-bar">
-											<li className="nav-item search-box">
+											{/* <li className="nav-item search-box">
 												<Search />
-											</li>
-											<li className="nav-item cart-box">
+											</li> */}
+											{/* <li className="nav-item cart-box">
 												<Link
 													to={process.env.PUBLIC_URL + "/cart"}
 													className="nav-link nav-cart"
 												>
 													<i className="las la-shopping-bag"></i>
 												</Link>
-											</li>
+											</li> */}
 											<li className="nav-item side-box">
 												<Sidebar />
 											</li>

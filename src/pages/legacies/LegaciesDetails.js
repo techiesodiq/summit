@@ -108,6 +108,38 @@ class BlogDetails extends Component {
 												and accelerates its purposeful impact in the world.{" "}
 											</p>
 											<br />
+											<h4 style={{marginBottom: "5px"}}>Donor Recognition</h4>
+											<p>
+												We have reserved special recognition for our donors. The
+												recognition level goes thus:
+											</p>
+											<ul>
+												<li style={{marginLeft: "20px"}}>
+													Golden Level: N5b - N10b
+												</li>
+												<li style={{marginLeft: "20px"}}>
+													Silver Level: N1b - N4.9b
+												</li>
+												<li style={{marginLeft: "20px"}}>
+													Platinum Level: N25M - N100M
+												</li>
+												<li style={{marginLeft: "20px"}}>
+													Level 1 Society: N10M - N24.9M
+												</li>
+												<li style={{marginLeft: "20px"}}>
+													Level 2 Society: N1M - N9.9M
+												</li>
+												<li style={{marginLeft: "20px"}}>
+													Level 3 Society: N500,000 - N999,000
+												</li>
+												<li style={{marginLeft: "20px"}}>
+													Investor: N250,000 - N499,000
+												</li>
+												<li style={{marginLeft: "20px"}}>
+													Sponsor: N100,000 - N249,000
+												</li>
+											</ul>
+											<br />
 											<p>
 												Here is the list of people and organizations who have
 												supported our university right from its inception. We

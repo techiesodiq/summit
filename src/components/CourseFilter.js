@@ -115,12 +115,29 @@ function CourseFilter() {
 												</h6>
 												<p className="desc">{data.courseDesc}</p>
 												<div className="course-face d-flex justify-content-between">
-													<div className="duration">
-														<p>
+													<div>
+														<button
+															style={{
+																fontSize: "14px",
+																color: "#fff",
+																background:
+																	"linear-gradient(90deg, #11B67A 0%, #009444 100%)",
+																display: "inline-block",
+																width: "110px",
+																height: "40px",
+																textAlign: "center",
+																padding: "11px",
+																borderRadius: "5px",
+																marginTop: "0px",
+															}}
+														>
+															Give Now
+														</button>
+														{/* <p>
 															<i className="las la-clock"></i>120
-														</p>
+														</p> */}
 													</div>
-													<div className="rating">
+													{/* <div className="rating">
 														<ul className="list-unstyled list-inline">
 															<li className="list-inline-item">
 																<i className="las la-star"></i>
@@ -139,12 +156,12 @@ function CourseFilter() {
 															</li>
 															<li className="list-inline-item">(4.5)</li>
 														</ul>
-													</div>
-													<div className="student">
+													</div> */}
+													{/* <div className="student">
 														<p>
 															<i className="las la-chair"></i>60
 														</p>
-													</div>
+													</div> */}
 												</div>
 											</div>
 										</div>

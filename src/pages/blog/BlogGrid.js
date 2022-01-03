@@ -20,7 +20,7 @@ class BlogGrid extends Component {
 					<HeaderTwo />
 
 					{/* Breadcroumb */}
-					<BreadcrumbBox title="Blog Grid" />
+					<BreadcrumbBox title="News" />
 
 					{/* Blog Classic */}
 					<section className="blog-grid-area">
@@ -32,7 +32,7 @@ class BlogGrid extends Component {
 											<Col lg="6" md="12" key={i}>
 												<div className="blog-item">
 													<div className="blog-img">
-														<Link to="/">
+														<Link to="#">
 															<img
 																src={
 																	process.env.PUBLIC_URL +
@@ -52,7 +52,7 @@ class BlogGrid extends Component {
 																className="author-img d-flex"
 																style={{alignSelf: "stretch"}}
 															>
-																<Link
+																{/* <Link
 																	to={process.env.PUBLIC_URL + data.authorLink}
 																>
 																	<img
@@ -62,8 +62,8 @@ class BlogGrid extends Component {
 																		}
 																		alt=""
 																	/>
-																</Link>
-																<p>
+																</Link> */}
+																{/* <p>
 																	<Link
 																		to={
 																			process.env.PUBLIC_URL + data.authorLink
@@ -71,7 +71,7 @@ class BlogGrid extends Component {
 																	>
 																		{data.authorName}
 																	</Link>
-																</p>
+																</p> */}
 															</div>
 															<div className="post-date">
 																<p>

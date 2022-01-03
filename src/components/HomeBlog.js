@@ -47,15 +47,13 @@ class HomeBlog extends Component {
 															</div>
 															<div className="blog-title">
 																<h6>
-																	<Link
-																		to={process.env.PUBLIC_URL + data.postLink}
-																	>
+																	<Link to={process.env.PUBLIC_URL + "#"}>
 																		{data.postTitle}
 																	</Link>
 																</h6>
 															</div>
 														</div>
-														<div className="blog-desk">
+														{/* <div className="blog-desk">
 															<p>{data.postExcerpt}</p>
 															<ul className="list-unstyled list-inline">
 																<li className="list-inline-item">
@@ -84,7 +82,7 @@ class HomeBlog extends Component {
 																	</Link>
 																</li>
 															</ul>
-														</div>
+														</div> */}
 													</div>
 												</div>
 											</Col>

@@ -47,7 +47,9 @@ class HomeBlog extends Component {
 															</div>
 															<div className="blog-title">
 																<h6>
-																	<Link to={process.env.PUBLIC_URL + "#"}>
+																	<Link
+																		to={process.env.PUBLIC_URL + data.postLink}
+																	>
 																		{data.postTitle}
 																	</Link>
 																</h6>

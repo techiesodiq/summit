@@ -124,7 +124,7 @@ class Footer extends Component {
 											/>
 										</div>
 										<div className="post-content">
-											<Link to={process.env.PUBLIC_URL + "/blog-grid"}>
+											<Link to={process.env.PUBLIC_URL + "/news"}>
 												A 60 bed-space hostel was donated by ADSN Lagos State
 												Council to Summit University
 											</Link>
@@ -141,7 +141,7 @@ class Footer extends Component {
 											/>
 										</div>
 										<div className="post-content">
-											<Link to={process.env.PUBLIC_URL + "/blog-grid"}>
+											<Link to={process.env.PUBLIC_URL + "/news"}>
 												SUNO receives a 500-capacity Lecture Theatre in honour
 												of Alhaja Makanjuola...
 											</Link>

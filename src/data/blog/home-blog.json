@@ -4,7 +4,7 @@
 		{
 			"id": "1",
 			"postImg": "blog01.jpg",
-			"postLink": "/blog-details",
+			"postLink": "/news",
 			"postDate": "25 Mar",
 			"postTitle": "SUNO Receives A Lecture Theatre",
 			"postExcerpt": "The family of Alhaja Adiat Abegbe Makanjuola gifted a 500-capacity Lecture Theatre to Summit in her name.",
@@ -15,7 +15,7 @@
 		{
 			"id": "2",
 			"postImg": "blog-02.jpg",
-			"postLink": "/blog-details",
+			"postLink": "/news",
 			"postDate": "05 Nov",
 			"postTitle": "Prof Oyawoye Award Winner Emerges",
 			"postExcerpt": "Ibrahim Moronfolu was presented the prestigious Professor Oyawoye Prize for the Best Pioneer Student.",
@@ -26,7 +26,7 @@
 		{
 			"id": "3",
 			"postImg": "blog-03.jpg",
-			"postLink": "/blog-details",
+			"postLink": "/news",
 			"postDate": "01 Jul",
 			"postTitle": "Dr Babalakin Donates 30 Workstations to the E-Library.",
 			"postExcerpt": "Dr. B.O. Babalakin SAN, OFR donated 30 workstations to the University's E-Library.",
@@ -37,7 +37,7 @@
 		{
 			"id": "4",
 			"postImg": "blog-004.jpg",
-			"postLink": "/blog-details",
+			"postLink": "/news",
 			"postDate": "22 Nov",
 			"postTitle": "ADSN Lagos Donates 60 Bed-Space Hostel",
 			"postExcerpt": "A 60 Bed-space Hostel was donated by ADSN Lagos State Council to Summit University.",

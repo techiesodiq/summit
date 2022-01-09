@@ -62,7 +62,7 @@ class TeamSlider extends Component {
 												className="img-fluid"
 											/>
 											<div className="img-content text-center">
-												<h5>{data.personName}</h5>
+												<h6>{data.personName}</h6>
 												<p>{data.personTitle}</p>
 												<ul className="list-unstyled list-inline">
 													<li className="list-inline-item">

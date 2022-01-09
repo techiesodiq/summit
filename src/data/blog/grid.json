@@ -1,68 +1,69 @@
 [
 	{
 		"id": "1",
+		"postImg": "news-06.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Medison Azar",
+		"postLink": "/blog-details",
+		"postDate": "May 11, 2017",
+		"postTitle": "Formal Inauguration and Maiden Matriculation Programme Ceremony.",
+		"postDesc": "It was a historical day for the entire staff and students of Summit University, Offa as the university community had its inauguration and matriculation ceremony.",
+		"authorLink": "#"
+	},
+	{
+		"id": "2",
+		"postImg": "news-04.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Medison Azar",
+		"postLink": "/blog-details",
+		"postDate": "November 22, 2018",
+		"postTitle": "ADSN Lagos Donates 60 Bed-Space Hostel.",
+		"postDesc": "A 60 Bed-space Hostel was donated by ADSN Lagos State Council to Summit University.",
+		"authorLink": "#"
+	},
+	{
+		"id": "3",
 		"postImg": "news-01.jpg",
 		"authorImg": "author.jpg",
 		"authorName": "Medison Azar",
 		"postLink": "/blog-details",
-		"postDate": "April 23, 2020",
+		"postDate": "January 26, 2018",
 		"postTitle": "SUNO Receives A Lecture Theatre.",
 		"postDesc": "The family of Alhaja Adiat Abegbe Makanjuola gifted a 500-capacity Lecture Theatre to Summit in her name.",
 		"authorLink": "#"
 	},
 	{
-		"id": "2",
-		"postImg": "news-02.jpg",
-		"authorImg": "author.jpg",
-		"authorName": "Medison Azar",
-		"postLink": "/blog-details",
-		"postDate": "April 23, 2020",
-		"postTitle": "Second Matriculation Ceremony",
-		"postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
-		"authorLink": "/"
-	},
-	{
-		"id": "3",
-		"postImg": "news-03.jpg",
-		"authorImg": "author.jpg",
-		"authorName": "Medison Azar",
-		"postLink": "/blog-details",
-		"postDate": "April 23, 2020",
-		"postTitle": "Students and Staff At The Maiden Orientation Exercise.",
-		"postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
-		"authorLink": "/"
-	},
-	{
 		"id": "4",
-		"postImg": "news-04.jpg",
-		"authorImg": "author.jpg",
-		"authorName": "Medison Azar",
-		"postLink": "/blog-details",
-		"postDate": "April 23, 2020",
-		"postTitle": "ADSN Lagos Donates 60 Bed-Space Hostel.",
-		"postDesc": "A 60 Bed-space Hostel was donated by ADSN Lagos State Council to Summit University.",
-		"authorLink": "/"
-	},
-	{
-		"id": "5",
 		"postImg": "news-05.jpg",
 		"authorImg": "author.jpg",
 		"authorName": "Medison Azar",
 		"postLink": "/blog-details",
-		"postDate": "April 23, 2020",
+		"postDate": "June 13, 2019",
 		"postTitle": "Okebukola Visits Summit",
 		"postDesc": "UNESCO Consultant and former Executive Secretary, National Universities Commission, Professor Peter Okebukola paid a visit to Summit University, Offa.",
-		"authorLink": "/"
+		"authorLink": "#"
 	},
 	{
-		"id": "6",
-		"postImg": "news-06.jpg",
+		"id": "5",
+		"postImg": "news-02.jpg",
 		"authorImg": "author.jpg",
 		"authorName": "Medison Azar",
 		"postLink": "/blog-details",
-		"postDate": "April 23, 2020",
-		"postTitle": "Formal Inauguration and Maiden Matriculation Programme Ceremony.",
-		"postDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos commodi Quasi laudantium, voluptatem velit necessitatibus.",
-		"authorLink": "/"
+		"postDate": "March 08, 2018",
+		"postTitle": "Second Matriculation Ceremony",
+		"postDesc": "The university organized a matriculation ceremony for the newly admitted students to welcome them into the campus.",
+		"authorLink": "#"
+	},
+
+	{
+		"id": "6",
+		"postImg": "news-03.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Medison Azar",
+		"postLink": "/blog-details",
+		"postDate": "May 31, 2017",
+		"postTitle": "Students and Staff At The Maiden Orientation Exercise.",
+		"postDesc": "The maiden orientation exercise at the university witnessed the joint participation of both the students and staff.",
+		"authorLink": "#"
 	}
 ]

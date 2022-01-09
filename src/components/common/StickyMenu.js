@@ -135,7 +135,7 @@ function StickyMenu() {
 									<li className="nav-item dropdown">
 										<Link
 											className="nav-link dropdown-toggle"
-											to={process.env.PUBLIC_URL + "/blog-grid"}
+											to={process.env.PUBLIC_URL + "/news"}
 											data-toggle="dropdown"
 										>
 											News
@@ -152,7 +152,7 @@ function StickyMenu() {
 									</li>
 								</ul>
 								<div className="apply-btn">
-									<Link to={process.env.PUBLIC_URL + "/registration"}>
+									<Link to={process.env.PUBLIC_URL + "/"}>
 										<i className="las la-clipboard-list"></i>Give Now
 									</Link>
 								</div>

@@ -113,8 +113,12 @@ function App() {
 					path={`${process.env.PUBLIC_URL + "/blog-classic"}`}
 					component={BlogClassic}
 				/>
-				<Route
+				{/* <Route
 					path={`${process.env.PUBLIC_URL + "/blog-grid"}`}
+					component={BlogGrid}
+				/> */}
+				<Route
+					path={`${process.env.PUBLIC_URL + "/news"}`}
 					component={BlogGrid}
 				/>
 				<Route

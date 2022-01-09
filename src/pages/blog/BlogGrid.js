@@ -31,9 +31,10 @@ class BlogGrid extends Component {
 										{Datas.map((data, i) => (
 											<Col lg="6" md="12" key={i}>
 												<div className="blog-item">
-													<div className="blog-img">
+													<div className="blog-img" style={{display: "flex"}}>
 														<Link to="#">
 															<img
+																style={{alignSelf: "stretch"}}
 																src={
 																	process.env.PUBLIC_URL +
 																	`/assets/images/${data.postImg}`

@@ -303,7 +303,7 @@ class Header extends Component {
 											<li className="nav-item dropdown">
 												<Link
 													className="nav-link dropdown-toggle"
-													to={process.env.PUBLIC_URL + "/blog-grid"}
+													to={process.env.PUBLIC_URL + "/news"}
 													data-toggle="dropdown"
 												>
 													News

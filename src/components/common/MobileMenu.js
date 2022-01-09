@@ -253,7 +253,7 @@ function MobileMenu() {
 								color: "black",
 								fontSize: "14px",
 							}}
-							to={process.env.PUBLIC_URL + "/blog-grid"}
+							to={process.env.PUBLIC_URL + "/news"}
 						>
 							NEWS
 						</Link>

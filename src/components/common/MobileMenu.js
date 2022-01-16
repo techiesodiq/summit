@@ -93,7 +93,9 @@ function MobileMenu() {
 													width: "80%",
 													height: "80%",
 												}}
-												src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
+												src={
+													process.env.PUBLIC_URL + "/assets/images/uni-logo.png"
+												}
 												alt=""
 											/>
 										</Link>

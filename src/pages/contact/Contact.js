@@ -1,6 +1,7 @@
 /** @format */
 
-import React, {useEffect} from "react";
+import emailjs from "@emailjs/browser";
+import React, {useEffect, useRef, useState} from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import FooterTwo from "../../components/FooterTwo";
@@ -8,7 +9,14 @@ import HeaderTwo from "../../components/HeaderTwo";
 import GoogleMap from "./GoogleMap";
 import {Styles} from "./styles/contact.js";
 
+const Result = () => (
+	<p>Your message has been successfully sent. We will contact you soon.</p>
+);
+
 function Contact() {
+	const [result, setResult] = useState(false);
+	const RESULT_SHOWTIME = 5000;
+
 	useEffect(() => {
 		const form = document.getElementById("form_contact");
 		const name = document.getElementById("contact_name");
@@ -29,7 +37,7 @@ function Contact() {
 			if (nameValue === "") {
 				setError(name, "Name can't be blank");
 			} else {
-				setSuccess(name);
+				setSuccess(name);				
 			}
 
 			if (emailValue === "") {
@@ -69,6 +77,34 @@ function Contact() {
 			return /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(email);
 		}
 	});
+
+	const form = useRef();
+	const sendEmail = (e) => {
+		e.preventDefault();
+
+		emailjs
+			.sendForm(
+				"service_r73zsus",
+				"template_xa2t6pf",
+				form.current,
+				"user_z3w4Z9rMH6T7xyd87noOV"
+			)
+			.then(
+				(result) => {
+					console.log(result.text);
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			);
+		e.target.reset();
+		setResult(true);
+	};
+
+	// Hide Result
+	setTimeout(() => {
+		setResult(false)
+	}, RESULT_SHOWTIME);
 
 	return (
 		<Styles>
@@ -155,11 +191,17 @@ function Contact() {
 										<h4>Get In Touch</h4>
 									</div>
 									<div className="form-box">
-										<form id="form_contact" className="form">
+										<form
+											ref={form}
+											onSubmit={sendEmail}
+											id="form_contact"
+											className="form"
+										>
 											<Row>
 												<Col md="6">
 													<p className="form-control">
 														<input
+															name="fullName"
 															type="text"
 															placeholder="Full Name"
 															id="contact_name"
@@ -170,6 +212,7 @@ function Contact() {
 												<Col md="6">
 													<p className="form-control">
 														<input
+															name="email"
 															type="email"
 															placeholder="Email Address"
 															id="contact_email"
@@ -180,6 +223,7 @@ function Contact() {
 												<Col md="12">
 													<p className="form-control">
 														<input
+															name="subject"
 															type="text"
 															placeholder="Subject"
 															id="contact_subject"
@@ -200,6 +244,11 @@ function Contact() {
 												<Col md="12">
 													<button>Send Message</button>
 												</Col>
+												<Row>
+													<Col md="12">
+														<div>{result ? <Result /> : null}</div>
+													</Col>
+												</Row>
 											</Row>
 										</form>
 									</div>

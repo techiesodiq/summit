@@ -64,8 +64,12 @@ function App() {
 					path={`${process.env.PUBLIC_URL + "/course-list"}`}
 					component={CourseList}
 				/>
+				{/* <Route
+					path={`${process.env.PUBLIC_URL + "/projects-details"}`}
+					component={CourseDetails}
+				/> */}
 				<Route
-					path={`${process.env.PUBLIC_URL + "/projects/:id"}`}
+					path={`${process.env.PUBLIC_URL + "/projects/:courseLink"}`}
 					component={CourseDetails}
 				/>
 				<Route

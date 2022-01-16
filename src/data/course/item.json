@@ -3,13 +3,13 @@
 		"id": "1",
 		"targetId": "acad",
 		"imgUrl": "course-01.jpg",
-		"authorImg": "author.jpg",
+		"authorImg": "team-04.jpeg",
 		"authorName": "John Doe",
 		"authorCourses": "13 Courses",
 		"price": "N450M",
 		"courseTitle": "Faculty Building",
 		"courseDesc": "This project involves the construction of any of our proposed faculties. The Benefactor can fund this project partially or fully.",
-		"courseLink": "/projects/"
+		"courseLink": "faculty-building"
 	},
 	{
 		"id": "2",
@@ -21,7 +21,7 @@
 		"price": "N1.5M",
 		"courseTitle": "Student's Scholarship Award",
 		"courseDesc": "You can fund a partial or full scholarship award to our brilliant or indigent students to support their education.",
-		"courseLink": "/projects/"
+		"courseLink": "students-scholarship-award"
 	},
 	{
 		"id": "3",
@@ -33,7 +33,7 @@
 		"price": "N15M",
 		"courseTitle": "Professorial Chair",
 		"courseDesc": "A benefactor can make a substantial contribution to the salary and other costs of a Named Professorial Chair.",
-		"courseLink": "/projects/"
+		"courseLink": "professorial-chair"
 	},
 	{
 		"id": "4",
@@ -45,7 +45,7 @@
 		"price": "N75M",
 		"courseTitle": "Sport Centre",
 		"courseDesc": "We welcome benefactors to support us in upgrading our existing Sport Centre to meet our desired taste.",
-		"courseLink": "/projects/"
+		"courseLink": "sports-centre"
 	},
 	{
 		"id": "5",
@@ -57,7 +57,7 @@
 		"price": "N400M",
 		"courseTitle": "Teaching & Lab Facilities",
 		"courseDesc": "You can support us to upgrade any of our existing teaching or laboratory facilities of your choice.",
-		"courseLink": "/projects/"
+		"courseLink": "teaching-and-lab-facilities"
 	},
 	{
 		"id": "6",
@@ -69,7 +69,7 @@
 		"price": "N120M",
 		"courseTitle": "Artificial Intelligence Centre",
 		"courseDesc": "Our proposed AI Centre is one of our dreams to position Summit as a top destination for AI in Africa.",
-		"courseLink": "/projects/"
+		"courseLink": "artificial-intelligence-center"
 	},
 	{
 		"id": "7",
@@ -81,7 +81,7 @@
 		"price": "N150M",
 		"courseTitle": "Central Mosque/Islamic Centre",
 		"courseDesc": "We seek collaboration to build an ultra-modern mosque in line with our vision to educate the general public on Islam.",
-		"courseLink": "/projects/"
+		"courseLink": "central-mosque"
 	},
 	{
 		"id": "8",
@@ -90,10 +90,10 @@
 		"authorImg": "author.jpg",
 		"authorName": "Sara Kim",
 		"authorCourses": "17 Courses",
-		"price": "N10M",
+		"price": "N15M",
 		"courseTitle": "Research Grant Award",
 		"courseDesc": "We have numerous research projects handled by our scholars that await sponsorship. You can choose to fund anyone of them.",
-		"courseLink": "/projects/"
+		"courseLink": "research-grant-award"
 	},
 	{
 		"id": "9",
@@ -105,42 +105,90 @@
 		"price": "N3M",
 		"courseTitle": "Prize Given Award",
 		"courseDesc": "In recognition of our best their hard work and academic excellence, we celebrate our best students on the prize-given day.",
-		"courseLink": "/projects/"
+		"courseLink": "prize-given-award"
 	},
 	{
 		"id": "10",
-		"targetId": "comm",
-		"imgUrl": "course-07.jpg",
+		"targetId": "other",
+		"imgUrl": "startup.jpg",
 		"authorImg": "author.jpg",
 		"authorName": "Shon Doe",
 		"authorCourses": "31 Courses",
-		"price": "N150M",
-		"courseTitle": "Central Mosque/Islamic Centre",
-		"courseDesc": "We seek collaboration to build an ultra-modern mosque in line with our vision to educate the general public on Islam.",
-		"courseLink": "/projects/"
+		"price": "N1M",
+		"courseTitle": "Graduands' Startup Fund",
+		"courseDesc": "We seek support to support our young graduates with entrepreneurship spirit to become an employer of labour.",
+		"courseLink": "graduands-startup-fund"
 	},
 	{
 		"id": "11",
-		"targetId": "recog",
-		"imgUrl": "course-08.jpg",
+		"targetId": "acad",
+		"imgUrl": "business-school.jpg",
 		"authorImg": "author.jpg",
 		"authorName": "Sara Kim",
 		"authorCourses": "17 Courses",
-		"price": "N10M",
-		"courseTitle": "Research Grant Award",
+		"price": "N250M",
+		"courseTitle": "Summit Business School",
 		"courseDesc": "We have numerous research projects handled by our scholars that await sponsorship. You can choose to fund anyone of them.",
-		"courseLink": "/projects/"
+		"courseLink": "summit-business-school"
 	},
 	{
 		"id": "12",
-		"targetId": "sch",
+		"targetId": "acad",
 		"imgUrl": "course-012.jpg",
 		"authorImg": "author.jpg",
 		"authorName": "Shon Doe",
 		"authorCourses": "31 Courses",
-		"price": "N3M",
+		"price": "N10M",
 		"courseTitle": "Lecture Theatre",
 		"courseDesc": "In recognition of our best their hard work and academic excellence, we celebrate our best students on the prize-given day.",
-		"courseLink": "/projects/"
+		"courseLink": "lecture-theater"
+	},
+	{
+		"id": "13",
+		"targetId": "other",
+		"imgUrl": "course-013.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Shon Doe",
+		"authorCourses": "31 Courses",
+		"price": "N120M",
+		"courseTitle": "Halls of Residence",
+		"courseDesc": "In recognition of our best their hard work and academic excellence, we celebrate our best students on the prize-given day.",
+		"courseLink": "halls-of-residence"
+	},
+	{
+		"id": "14",
+		"targetId": "acad",
+		"imgUrl": "course-014.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Shon Doe",
+		"authorCourses": "31 Courses",
+		"price": "N250M",
+		"courseTitle": "Open Distance Learning Centre",
+		"courseDesc": "In recognition of our best their hard work and academic excellence, we celebrate our best students on the prize-given day.",
+		"courseLink": "open-distance-learning-centre"
+	},
+	{
+		"id": "15",
+		"targetId": "spec",
+		"imgUrl": "course-015.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Shon Doe",
+		"authorCourses": "31 Courses",
+		"price": "N100M",
+		"courseTitle": "International Conference Centre",
+		"courseDesc": "In recognition of our best their hard work and academic excellence, we celebrate our best students on the prize-given day.",
+		"courseLink": "international-conference-centre"
+	},
+	{
+		"id": "16",
+		"targetId": "comm",
+		"imgUrl": "course-016.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Shon Doe",
+		"authorCourses": "31 Courses",
+		"price": "N100M",
+		"courseTitle": "Publishing House",
+		"courseDesc": "In recognition of our best their hard work and academic excellence, we celebrate our best students on the prize-given day.",
+		"courseLink": "publishing-house"
 	}
 ]

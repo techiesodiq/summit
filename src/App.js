@@ -126,7 +126,7 @@ function App() {
 					component={BlogGrid}
 				/>
 				<Route
-					path={`${process.env.PUBLIC_URL + "/news/:postLink"}`}
+					path={`${process.env.PUBLIC_URL + "/news-details/:postLink"}`}
 					component={BlogDetails}
 				/>
 				<Route

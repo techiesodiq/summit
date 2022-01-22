@@ -35,7 +35,7 @@ class BlogGrid extends Component {
 														<Link
 															to={
 																process.env.PUBLIC_URL +
-																"/news/" +
+																"/news-details/" +
 																data.postLink
 															}
 														>
@@ -92,7 +92,7 @@ class BlogGrid extends Component {
 																<Link
 																	to={
 																		process.env.PUBLIC_URL +
-																		"/news/" +
+																		"/news-details/" +
 																		data.postLink
 																	}
 																>

@@ -32,7 +32,13 @@ class BlogGrid extends Component {
 											<Col lg="6" md="12" key={i}>
 												<div className="blog-item">
 													<div className="blog-img" style={{display: "flex"}}>
-														<Link to="#">
+														<Link
+															to={
+																process.env.PUBLIC_URL +
+																"/news-details/" +
+																data.postLink
+															}
+														>
 															<img
 																style={{alignSelf: "stretch"}}
 																src={
@@ -83,7 +89,15 @@ class BlogGrid extends Component {
 														</div>
 														<div className="blog-title">
 															<h6>
-																<Link to="#">{data.postTitle}</Link>
+																<Link
+																	to={
+																		process.env.PUBLIC_URL +
+																		"/news-details/" +
+																		data.postLink
+																	}
+																>
+																	{data.postTitle}
+																</Link>
 															</h6>
 														</div>
 														<div className="blog-desc">

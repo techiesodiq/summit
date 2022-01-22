@@ -88,7 +88,7 @@ class BlogDetails extends Component {
 												<br />
 												Creating a professorial chair is one of the most
 												significant investments a contributor can make at Summit
-												University, Offa, it is intended for an individuals or
+												University, Offa. It is intended for an individuals or
 												corporate organization who may want to contribute to the
 												progress of the University by contributing to our
 												professorial chair with a payment in form of an

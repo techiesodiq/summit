@@ -69,7 +69,7 @@ function App() {
 					component={CourseDetails}
 				/> */}
 				<Route
-					path={`${process.env.PUBLIC_URL + "/projects/:courseLink"}`}
+					path={`${process.env.PUBLIC_URL + "/project/:courseLink"}`}
 					component={CourseDetails}
 				/>
 				<Route

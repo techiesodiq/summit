@@ -32,9 +32,19 @@ class Footer extends Component {
 									</p>
 									<br />
 									<ul className="list-unstyled">
-										<li>
+										{/* <li>
 											<i className="las la-map-marker"></i>Irra Road, PMB 4412,
 											Offa, Kwara State, Nigeria.
+										</li> */}
+										<li>
+											<address>
+												<b>Summit Campus:</b> Irra Road, PMB 4412, Offa, Kwara
+												State, Nigeria.
+											</address>
+											<address>
+												<b>Lagos Liaison Office:</b> 165, Herbert Macaulay Way,
+												Ebute Metta, Lagos, Nigeria.
+											</address>
 										</li>
 										<li>
 											<i className="las la-envelope"></i>info@suab.org
@@ -103,8 +113,8 @@ class Footer extends Component {
 												</Link>
 											</li>
 											<li>
-												<Link to={process.env.PUBLIC_URL + "/coming-soon"}>
-													<i className="las la-angle-right"></i>Coming
+												<Link to={process.env.PUBLIC_URL + "/next-event"}>
+													<i className="las la-angle-right"></i>Next
 												</Link>
 											</li>
 										</ul>

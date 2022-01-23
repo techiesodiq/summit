@@ -64,15 +64,8 @@ class BlogDetails extends Component {
 											</div>
 											<div className="post-category">
 												<p>
-													<Link to={process.env.PUBLIC_URL + "/"}>
-														<i className="las la-bookmark"></i> Endowment
-													</Link>
-												</p>
-											</div>
-											<div className="post-comment">
-												<p>
-													<Link to={process.env.PUBLIC_URL + "/"}>
-														<i className="las la-comment"></i> (23)
+													<Link to={process.env.PUBLIC_URL + "/services"}>
+														<i className="las la-bookmark"></i> Services
 													</Link>
 												</p>
 											</div>

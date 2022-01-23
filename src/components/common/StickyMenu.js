@@ -28,9 +28,14 @@ function StickyMenu() {
 							<div className="logo">
 								<Link to={process.env.PUBLIC_URL + "/"}>
 									<img
-										style={{objectFit: "cover", width: "20%", height: "20%"}}
+										style={{
+											objectFit: "cover",
+											width: "35%",
+											height: "35%",
+											transform: "scale(1) translate(0%, -20%)",
+										}}
 										src={
-											process.env.PUBLIC_URL + "/assets/images/summit-logo.jpeg"
+											process.env.PUBLIC_URL + "/assets/images/summit-logo1.png"
 										}
 										alt=""
 									/>
@@ -43,7 +48,7 @@ function StickyMenu() {
 									<li className="nav-item dropdown">
 										<Link
 											className="nav-link dropdown-toggle"
-											to={process.env.PUBLIC_URL + "/home-two"}
+											to={process.env.PUBLIC_URL + "/services"}
 											data-toggle="dropdown"
 										>
 											Services<i className="las la-angle-down"></i>
@@ -89,14 +94,16 @@ function StickyMenu() {
 													Investment
 												</Link>
 											</li>
-											{/* <li className="nav-item">
+											<li className="nav-item">
 												<Link
 													className="nav-link"
-													to={process.env.PUBLIC_URL + "/students-affairs"}
+													to={
+														process.env.PUBLIC_URL + "/international-relations"
+													}
 												>
-													Students' Affairs
+													International Relations
 												</Link>
-											</li> */}
+											</li>
 											<li className="nav-item">
 												<Link
 													className="nav-link"

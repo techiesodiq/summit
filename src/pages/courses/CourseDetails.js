@@ -7,7 +7,6 @@ import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import FooterTwo from "../../components/FooterTwo";
 import HeaderTwo from "../../components/HeaderTwo";
 import datas from "../../data/course/details.json";
-import CourseTag from "./components/CourseTag";
 import PopularCourse from "./components/PopularCourse";
 import ReviewForm from "./components/ReviewForm";
 import {Styles} from "./styles/course.js";
@@ -126,7 +125,7 @@ function CourseDetails() {
 																	</p>
 																</div>
 																<div className="course-feature">
-																	<h5>Project Feature</h5>
+																	<h5>Project Features</h5>
 																	<p>{data.feature}</p>
 																	{data.featureItem.map((item, i) => (
 																		<ul className="list-unstyled">
@@ -522,9 +521,6 @@ function CourseDetails() {
 													</Col>
 													<Col md="12">
 														<PopularCourse />
-													</Col>
-													<Col md="12">
-														<CourseTag />
 													</Col>
 												</Row>
 											</div>

@@ -33,6 +33,7 @@ import Faq from "./pages/faq/Faq";
 import Gallery from "./pages/gallery/Gallery";
 import InstructorDetails from "./pages/instructor/InstructorDetails";
 import Instructor from "./pages/instructor/Instructors";
+import InternationalRelationsDetails from "./pages/internationalRelations/InternationalRelationsDetails";
 import InvestmentDetails from "./pages/investment/InvestmentDetails";
 import Legacies from "./pages/legacies/LegaciesDetails";
 import ProfessorialChairsDetails from "./pages/professorialchairs/ProfessorialChairsDetails";
@@ -142,7 +143,7 @@ function App() {
 					component={PageNotFound}
 				/>
 				<Route
-					path={`${process.env.PUBLIC_URL + "/coming-soon"}`}
+					path={`${process.env.PUBLIC_URL + "/next-event"}`}
 					component={ComingSoon}
 				/>
 				<Route
@@ -172,6 +173,10 @@ function App() {
 				<Route
 					path={`${process.env.PUBLIC_URL + "/professorial-chairs"}`}
 					component={ProfessorialChairsDetails}
+				/>
+				<Route
+					path={`${process.env.PUBLIC_URL + "/international-relations"}`}
+					component={InternationalRelationsDetails}
 				/>
 				<Route
 					path={`${process.env.PUBLIC_URL + "/students-scholarship"}`}

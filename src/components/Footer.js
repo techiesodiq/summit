@@ -3,7 +3,6 @@
 import React, {Component} from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
-import Datas from "../data/footer/footer.json";
 import BackToTop from "./common/BackToTop";
 import {Styles} from "./styles/footerOne.js";
 
@@ -14,11 +13,11 @@ class Footer extends Component {
 				{/* Footer Area */}
 				<footer
 					className="footer1"
-					style={{
-						backgroundImage: `url(assets/images/${
-							process.env.PUBLIC_URL + Datas.backgroundImage
-						})`,
-					}}
+					// style={{
+					// 	backgroundImage: `url(assets/images/${
+					// 		process.env.PUBLIC_URL + Datas.backgroundImage
+					// 	})`,
+					// }}
 				>
 					<Container>
 						<Row>

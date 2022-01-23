@@ -7,7 +7,6 @@ import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import FooterTwo from "../../components/FooterTwo";
 import HeaderTwo from "../../components/HeaderTwo";
 import Datas from "../../data/gallery/gallery-page.json";
-import Pagination from "./../../components/Pagination";
 import {Styles} from "./styles/gallery.js";
 
 class Gallery extends Component {
@@ -47,10 +46,6 @@ class Gallery extends Component {
 										</div>
 									</Col>
 								))}
-
-								<Col md="12" className="text-center">
-									<Pagination />
-								</Col>
 							</Row>
 						</Container>
 					</section>

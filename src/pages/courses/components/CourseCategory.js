@@ -1,6 +1,7 @@
 /** @format */
 
 import React, {Component} from "react";
+import {Link} from "react-router-dom";
 import {Styles} from "../styles/courseCategory.js";
 
 class CourseCategory extends Component {
@@ -12,34 +13,55 @@ class CourseCategory extends Component {
 					<h5>Project's Category</h5>
 					<ul className="category-item list-unstyled">
 						<li className="check-btn">
-							<label htmlFor="cat1">
-								<input type="checkbox" id="cat1" className="check-box" />
-								Academic Centres<span>(25)</span>
-							</label>
+							<Link to="/projects/academic-centres">
+								<label htmlFor="cat1">
+									<input type="checkbox" id="cat1" className="check-box" />
+									Academic Centres<span>(6)</span>
+								</label>
+							</Link>
+						</li>
+
+						<li className="check-btn">
+							<Link to="/projects/scholarship-and-prizes">
+								<label htmlFor="cat2">
+									<input type="checkbox" id="cat2" className="check-box" />
+									Scholarships & Prizes<span>(2)</span>
+								</label>
+							</Link>
+						</li>
+
+						<li className="check-btn">
+							<Link to="/projects/scholars-recognition">
+								<label htmlFor="cat3">
+									<input type="checkbox" id="cat3" className="check-box" />
+									Scholar's Recognition<span>(2)</span>
+								</label>
+							</Link>
+						</li>
+
+						<li className="check-btn">
+							<Link to="/projects/special-use">
+								<label htmlFor="cat4">
+									<input type="checkbox" id="cat4" className="check-box" />
+									Special Use<span>(2)</span>
+								</label>
+							</Link>
 						</li>
 						<li className="check-btn">
-							<label htmlFor="cat2">
-								<input type="checkbox" id="cat2" className="check-box" />
-								Scholarships & Prizes<span>(11)</span>
-							</label>
+							<Link to="/projects/others">
+								<label htmlFor="cat5">
+									<input type="checkbox" id="cat5" className="check-box" />
+									Others<span>(3)</span>
+								</label>
+							</Link>
 						</li>
 						<li className="check-btn">
-							<label htmlFor="cat3">
-								<input type="checkbox" id="cat3" className="check-box" />
-								Scholar's Recognition<span>(17)</span>
-							</label>
-						</li>
-						<li className="check-btn">
-							<label htmlFor="cat4">
-								<input type="checkbox" id="cat4" className="check-box" />
-								Special Use<span>(23)</span>
-							</label>
-						</li>
-						<li className="check-btn">
-							<label htmlFor="cat5">
-								<input type="checkbox" id="cat5" className="check-box" />
-								Others<span>(19)</span>
-							</label>
+							<Link to="/projects/communal-use">
+								<label htmlFor="cat5">
+									<input type="checkbox" id="cat5" className="check-box" />
+									Communal Use<span>(2)</span>
+								</label>
+							</Link>
 						</li>
 					</ul>
 				</div>

@@ -26,12 +26,14 @@ export const colors = {
 	text3: "#969696",
 	text4: "#aaaaaa",
 	text5: "#cccccc",
+	text6: "#ffffff",
 	border1: "#eeeeee",
 	border2: "#3e3e3e",
 	border3: "#dddddd",
 	footer1: "#1a1b25",
 	footer2: "#16171f",
-	ftext: "#8D8E92",
+	// ftext: "#8D8E92",
+	ftext: "#FFFFFF",
 };
 
 export const fonts = {

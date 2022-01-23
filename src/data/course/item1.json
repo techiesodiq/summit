@@ -1,0 +1,26 @@
+[
+	{
+		"id": "1",
+		"targetId": "comm",
+		"imgUrl": "course-07.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Shon Doe",
+		"authorCourses": "31 Courses",
+		"price": "N150M",
+		"courseTitle": "Central Mosque/Islamic Centre",
+		"courseDesc": "We seek collaboration to build an ultra-modern mosque in line with our vision to educate the general public on Islam.",
+		"courseLink": "central-mosque"
+	},
+	{
+		"id": "16",
+		"targetId": "comm",
+		"imgUrl": "course-016.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Shon Doe",
+		"authorCourses": "31 Courses",
+		"price": "N100M",
+		"courseTitle": "Publishing House",
+		"courseDesc": "In recognition of our best their hard work and academic excellence, we celebrate our best students on the prize-given day.",
+		"courseLink": "publishing-house"
+	}
+]

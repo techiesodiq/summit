@@ -19,6 +19,12 @@ import ComingSoon from "./pages/comingsoon/ComingSoon";
 import Contact from "./pages/contact/Contact";
 import CourseDetails from "./pages/courses/CourseDetails";
 import CourseGrid from "./pages/courses/CourseGrid";
+import CommunalGrid from "./pages/courses/CourseGridCategory1";
+import OthersGrid from "./pages/courses/CourseGridCategory2";
+import SpecialGrid from "./pages/courses/CourseGridCategory3";
+import RecognitionGrid from "./pages/courses/CourseGridCategory4";
+import ScholarGrid from "./pages/courses/CourseGridCategory5";
+import AcadGrid from "./pages/courses/CourseGridCategory6";
 import CourseList from "./pages/courses/CourseList";
 import EndowmentDetails from "./pages/endowment/EndowmentDetails";
 import Events from "./pages/events/Events";
@@ -59,6 +65,32 @@ function App() {
 				<Route
 					path={`${process.env.PUBLIC_URL + "/projects"}`}
 					component={CourseGrid}
+				/>
+				<Route
+					path={`${process.env.PUBLIC_URL + "/projects/communal-use"}`}
+					component={CommunalGrid}
+				/>
+				<Route
+					path={`${process.env.PUBLIC_URL + "/projects/others"}`}
+					component={OthersGrid}
+				/>
+				<Route
+					path={`${process.env.PUBLIC_URL + "/projects/special-use"}`}
+					component={SpecialGrid}
+				/>
+				<Route
+					path={`${process.env.PUBLIC_URL + "/projects/scholars-recognition"}`}
+					component={RecognitionGrid}
+				/>
+				<Route
+					path={`${
+						process.env.PUBLIC_URL + "/projects/scholarship-and-prizes"
+					}`}
+					component={ScholarGrid}
+				/>
+				<Route
+					path={`${process.env.PUBLIC_URL + "/projects/academic-centres"}`}
+					component={AcadGrid}
 				/>
 				<Route
 					path={`${process.env.PUBLIC_URL + "/course-list"}`}

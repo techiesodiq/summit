@@ -67,29 +67,29 @@ function App() {
 					component={CourseGrid}
 				/>
 				<Route
-					path={`${process.env.PUBLIC_URL + "/projects/communal-use"}`}
+					path={`${process.env.PUBLIC_URL + "/projects-communal-use"}`}
 					component={CommunalGrid}
 				/>
 				<Route
-					path={`${process.env.PUBLIC_URL + "/projects/others"}`}
+					path={`${process.env.PUBLIC_URL + "/projects-others"}`}
 					component={OthersGrid}
 				/>
 				<Route
-					path={`${process.env.PUBLIC_URL + "/projects/special-use"}`}
+					path={`${process.env.PUBLIC_URL + "/projects-special-use"}`}
 					component={SpecialGrid}
 				/>
 				<Route
-					path={`${process.env.PUBLIC_URL + "/projects/scholars-recognition"}`}
+					path={`${process.env.PUBLIC_URL + "/projects-scholars-recognition"}`}
 					component={RecognitionGrid}
 				/>
 				<Route
 					path={`${
-						process.env.PUBLIC_URL + "/projects/scholarship-and-prizes"
+						process.env.PUBLIC_URL + "/projects-scholarship-and-prizes"
 					}`}
 					component={ScholarGrid}
 				/>
 				<Route
-					path={`${process.env.PUBLIC_URL + "/projects/academic-centres"}`}
+					path={`${process.env.PUBLIC_URL + "/projects-academic-centres"}`}
 					component={AcadGrid}
 				/>
 				<Route

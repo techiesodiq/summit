@@ -13,7 +13,7 @@ class CourseCategory extends Component {
 					<h5>Project's Category</h5>
 					<ul className="category-item list-unstyled">
 						<li className="check-btn">
-							<Link to="/projects/academic-centres">
+							<Link to="/projects-academic-centres">
 								<label htmlFor="cat1">
 									<input type="checkbox" id="cat1" className="check-box" />
 									Academic Centres<span>(6)</span>
@@ -22,7 +22,7 @@ class CourseCategory extends Component {
 						</li>
 
 						<li className="check-btn">
-							<Link to="/projects/scholarship-and-prizes">
+							<Link to="/projects-scholarship-and-prizes">
 								<label htmlFor="cat2">
 									<input type="checkbox" id="cat2" className="check-box" />
 									Scholarships & Prizes<span>(2)</span>
@@ -31,7 +31,7 @@ class CourseCategory extends Component {
 						</li>
 
 						<li className="check-btn">
-							<Link to="/projects/scholars-recognition">
+							<Link to="/projects-scholars-recognition">
 								<label htmlFor="cat3">
 									<input type="checkbox" id="cat3" className="check-box" />
 									Scholar's Recognition<span>(2)</span>
@@ -40,7 +40,7 @@ class CourseCategory extends Component {
 						</li>
 
 						<li className="check-btn">
-							<Link to="/projects/special-use">
+							<Link to="/projects-special-use">
 								<label htmlFor="cat4">
 									<input type="checkbox" id="cat4" className="check-box" />
 									Special Use<span>(2)</span>
@@ -48,7 +48,7 @@ class CourseCategory extends Component {
 							</Link>
 						</li>
 						<li className="check-btn">
-							<Link to="/projects/others">
+							<Link to="/projects-others">
 								<label htmlFor="cat5">
 									<input type="checkbox" id="cat5" className="check-box" />
 									Others<span>(3)</span>
@@ -56,7 +56,7 @@ class CourseCategory extends Component {
 							</Link>
 						</li>
 						<li className="check-btn">
-							<Link to="/projects/communal-use">
+							<Link to="/projects-communal-use">
 								<label htmlFor="cat5">
 									<input type="checkbox" id="cat5" className="check-box" />
 									Communal Use<span>(2)</span>

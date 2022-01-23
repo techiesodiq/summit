@@ -1,21 +1,15 @@
 /** @format */
 
-import React, {useState} from "react";
+import React from "react";
 import {Col} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import Datas from "../../../data/course/item4.json";
 
 const CourseItemGrid = () => {
-	const [visible, setVisible] = useState(4);
-
-	const loadMoreData = () => {
-		setVisible((prev) => prev + 4);
-	};
-
 	return (
 		<>
 			{/* Course Item */}
-			{Datas.slice(0, visible).map((data, i) => (
+			{Datas.map((data, i) => (
 				<Col lg="6" md="12" key={i}>
 					<div className="course-item">
 						<Link to={process.env.PUBLIC_URL + "/project/" + data.courseLink}>
@@ -63,29 +57,6 @@ const CourseItemGrid = () => {
 					</div>
 				</Col>
 			))}
-
-			<Col md="12" className="text-center">
-				{/* <Pagination /> */}
-				{Datas.length !== visible && (
-					<button
-						style={{
-							fontSize: "14px",
-							color: "#fff",
-							background: "linear-gradient(90deg, #11B67A 0%, #009444 100%)",
-							display: "inline-block",
-							width: "110px",
-							height: "40px",
-							textAlign: "center",
-							padding: "11px",
-							borderRadius: "5px",
-							marginTop: "0px",
-						}}
-						onClick={loadMoreData}
-					>
-						Load more
-					</button>
-				)}
-			</Col>
 		</>
 	);
 };

@@ -63,15 +63,8 @@ class BlogDetails extends Component {
 											</div>
 											<div className="post-category">
 												<p>
-													<Link to={process.env.PUBLIC_URL + "/"}>
-														<i className="las la-bookmark"></i> Legacies
-													</Link>
-												</p>
-											</div>
-											<div className="post-comment">
-												<p>
-													<Link to={process.env.PUBLIC_URL + "/"}>
-														<i className="las la-comment"></i> (23)
+													<Link to={process.env.PUBLIC_URL + "/services"}>
+														<i className="las la-bookmark"></i> Services
 													</Link>
 												</p>
 											</div>
@@ -87,19 +80,6 @@ class BlogDetails extends Component {
 												aid their learning.
 												<br />
 												<br />
-												{/* <span>
-													<i className="las la-quote-right"></i>When a man dies,
-													his deeds come to an end except for three things:
-													ceaseless charity; knowledge which is beneficial; or a
-													virtuous descendant who prays for him (the deceased).
-													- Prophet Muhammad (S.A.W.).
-												</span>
-												When you give to Summit, you educate tomorrow’s
-												change-makers, drive discoveries and innovation, and
-												help find solutions to societal challenges. You have
-												created a legacy and your name will never go unnoticed.
-												More importantly, you support the university’s mission
-												and accelerates its purposeful impact in the world.{" "} */}
 											</p>
 											<br />
 											<p>

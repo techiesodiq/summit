@@ -19,7 +19,7 @@ class BlogDetails extends Component {
 					<HeaderTwo />
 
 					{/* Breadcroumb */}
-					<BreadcrumbBox title="Professorial Chairs" />
+					<BreadcrumbBox title="International Relations" />
 
 					{/* Blog Details */}
 					<section className="blog-details-area">
@@ -31,14 +31,14 @@ class BlogDetails extends Component {
 											<img
 												src={
 													process.env.PUBLIC_URL +
-													`/assets/images/course-03.jpg`
+													`/assets/images/international.jpg`
 												}
 												alt=""
 												className="img-fluid"
 											/>
 										</div>
 										<div className="heading">
-											<h4>Professorial Chairs</h4>
+											<h4>International Relations</h4>
 										</div>
 										<div className="blog-auth_date d-flex">
 											{/* <div className="author-img d-flex">
@@ -72,73 +72,43 @@ class BlogDetails extends Component {
 										</div>
 										<div className="blog-details-desc">
 											<p>
-												Either as an organisation or as an individual, you can
-												support our endowed chaired position. This will help us
-												to keep the best brains with us and attract esteemed
-												faculty members anywhere in the world. More importantly,
-												the funds will be channelled to support research.
+												We at summit university advancement bureau, a
+												mission-driven entity, promote partnership with
+												international and interested institutions, research
+												institutes, academic outlets, and professional firms
+												whose vision and mission are also for academic
+												excellence and development in research. This is geared
+												towards having productive graduates, world-class
+												research, and implementable projects. This partnership
+												can involve a variety of activities, such as joint
+												research or teaching initiatives or engaging in
+												formalized faculty or student exchanges, internships for
+												students as we see internship a perfect opportunity to
+												explore future career options and to begin to build both
+												a portfolio and a professional network.
 												<br />
 												<br />
-												Creating a professorial chair is one of the most
-												significant investments a contributor can make at Summit
-												University, Offa. It is intended for an individuals or
-												corporate organization who may want to contribute to the
-												progress of the University by contributing to our
-												professorial chair with a payment in form of an
-												endowment fund in to the University, once a fund is
-												created and the time is right, the process of appointing
-												a holder begins. A portion of the interest earned is
-												given to the chair holder for the contribution made to
-												knowledge.
+												We understand that some colleges and universities may be
+												interested in recruiting more international students and
+												may have funding to contribute while others may not.
+												Some may be more interested in establishing faculty
+												exchanges or joint-degree programs.
 												<br />
 												<br />
-												College of Natural and Applied Sciences College of
-												Management and Social Sciences College of Humanities
-												Proposed College of Law
+												We welcome 2022 to build upon our mission of connecting
+												employability and education through experiential
+												learning and internship about student internships. Let’s
+												work together to shape the future of International
+												Education. This is encouraged as finding a full-time
+												role after graduation can seem a daunting task. Now,
+												more than ever, internships for college students are
+												essential elements of career preparation. With this
+												stated, Summit University sees Hands-on experience,
+												especially with international bodies as just as
+												important as coursework for those looking to make a
+												smooth transition into the global workforce.
 											</p>
 											<br />
-											<p>
-												The University has available for endowments 4
-												professorial chairs in the following Colleges:
-											</p>
-											<ul className="list-unstyled">
-												<li
-													style={{
-														display: "flex",
-														justifyContent: "flex-start",
-													}}
-												>
-													<i className="fa fa-check mt-0 mb-0"></i>College of
-													Natural and Applied Sciences
-												</li>
-												<li
-													style={{
-														display: "flex",
-														justifyContent: "flex-start",
-													}}
-												>
-													<i className="fa fa-check mt-0 mb-0"></i> College of
-													Management and Social Sciences
-												</li>
-												<li
-													style={{
-														display: "flex",
-														justifyContent: "flex-start",
-													}}
-												>
-													<i className="fa fa-check mt-0 mb-0"></i> College of
-													Humanities
-												</li>
-												<li
-													style={{
-														display: "flex",
-														justifyContent: "flex-start",
-													}}
-												>
-													<i className="fa fa-check mt-0 mb-0"></i> Proposed
-													College of Law
-												</li>
-											</ul>
 										</div>
 
 										<Col md="12">
@@ -154,8 +124,9 @@ class BlogDetails extends Component {
 													borderRadius: "5px",
 													marginTop: "5px",
 												}}
+												onClick={() => (window.location.href = "/contact")}
 											>
-												Leave A Legacy
+												Contact Us
 											</button>
 										</Col>
 									</div>

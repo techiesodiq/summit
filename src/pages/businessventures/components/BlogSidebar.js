@@ -1,32 +1,25 @@
-import React, { Component } from 'react';
-import { Row, Col } from 'react-bootstrap';
-import CourseSearch from './../../courses/components/CourseSearch';
-import CourseCategory from './../../courses/components/CourseCategory';
-import RecentBlog from './RecentPost';
-import CourseTag from './../../courses/components/CourseTag';
+/** @format */
 
+import React, {Component} from "react";
+import {Col, Row} from "react-bootstrap";
+import CourseCategory from "./../../courses/components/CourseCategory";
+import RecentBlog from "./RecentPost";
 
 class BlogSidebar extends Component {
-    render() {
-        return (
-            <div className="course-sidebar">
-                <Row>
-                    <Col md="12">
-                        <CourseSearch />
-                    </Col>
-                    <Col md="12">
-                        <CourseCategory />
-                    </Col>
-                    <Col md="12">
-                        <RecentBlog />
-                    </Col>
-                    <Col md="12">
-                        <CourseTag />
-                    </Col>
-                </Row>
-            </div>
-        )
-    }
+	render() {
+		return (
+			<div className="course-sidebar">
+				<Row>
+					<Col md="12">
+						<CourseCategory />
+					</Col>
+					<Col md="12">
+						<RecentBlog />
+					</Col>
+				</Row>
+			</div>
+		);
+	}
 }
 
-export default BlogSidebar
+export default BlogSidebar;

@@ -31,9 +31,10 @@ const BlogDetails = () => {
 									<div className="blog-details-banner">
 										<img
 											src={
-												process.env.PUBLIC_URL + `/assets/images/legacies.jpg`
+												process.env.PUBLIC_URL + `/assets/images/graduate.jpg`
 											}
 											alt=""
+											style={{height: "20%"}}
 											className="img-fluid"
 										/>
 									</div>
@@ -91,17 +92,10 @@ const BlogDetails = () => {
 											Our events program brings together alumni to celebrate,
 											debate, and collaborate, while our international network
 											of local groups allows graduates to reconnect and make new
-											friends in their area.{" "}
-											<span>
-												<i className="las la-quote-right">
-													Our Alumni get-together events bring us together to
-													celebrate Summit University.
-												</i>
-												.
-											</span>
-											A member becomes an alumnus of Summit and a member of our
-											alumni community upon graduation joining individuals from
-											different parts of the world.{" "}
+											friends in their area. A member becomes an alumnus of
+											Summit and a member of our alumni community upon
+											graduation joining individuals from different parts of the
+											world.{" "}
 										</p>
 										<br />
 										<p>

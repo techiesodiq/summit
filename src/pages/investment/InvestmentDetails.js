@@ -64,15 +64,8 @@ class BlogDetails extends Component {
 											</div>
 											<div className="post-category">
 												<p>
-													<Link to={process.env.PUBLIC_URL + "/"}>
-														<i className="las la-bookmark"></i> Investment
-													</Link>
-												</p>
-											</div>
-											<div className="post-comment">
-												<p>
-													<Link to={process.env.PUBLIC_URL + "/"}>
-														<i className="las la-comment"></i> (23)
+													<Link to={process.env.PUBLIC_URL + "/services"}>
+														<i className="las la-bookmark"></i>Services
 													</Link>
 												</p>
 											</div>
@@ -110,17 +103,9 @@ class BlogDetails extends Component {
 												ones that are only available on a project-by-project
 												basis. Administrative buildings, residential
 												developments, and multi-user projects are all part of
-												the portfolio.
-												{/* <span>
-													<i className="las la-quote-right"></i>When a man dies,
-													his deeds come to an end except for three things:
-													ceaseless charity; knowledge which is beneficial; or a
-													virtuous descendant who prays for him (the deceased).
-													- Prophet Muhammad (S.A.W.).
-												</span> */}
-												We have been instrumental and supportive in managing all
-												the capital projects donated to Summit from different
-												organizations and bodies.
+												the portfolio. We have been instrumental and supportive
+												in managing all the capital projects donated to Summit
+												from different organizations and bodies.
 											</p>
 											<br />
 											<p>Some of our benefactors include:</p>

@@ -143,8 +143,16 @@ class HeaderTwo extends Component {
 								<div className="logo">
 									<Link to={process.env.PUBLIC_URL + "/"}>
 										<img
-											src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
+											src={
+												process.env.PUBLIC_URL +
+												"/assets/images/summit-logo1.png"
+											}
 											alt=""
+											style={{
+												height: "40%",
+												width: "40%",
+												transform: "scale(1) translate(0%, -20%)",
+											}}
 										/>
 									</Link>
 								</div>
@@ -212,14 +220,17 @@ class HeaderTwo extends Component {
 														Investment
 													</Link>
 												</li>
-												{/* <li className="nav-item">
+												<li className="nav-item">
 													<Link
 														className="nav-link"
-														to={process.env.PUBLIC_URL + "/students-affairs"}
+														to={
+															process.env.PUBLIC_URL +
+															"/international-relations"
+														}
 													>
-														Students' Affairs
+														International Relations
 													</Link>
-												</li> */}
+												</li>
 												<li className="nav-item">
 													<Link
 														className="nav-link"

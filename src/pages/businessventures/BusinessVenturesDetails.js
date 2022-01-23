@@ -40,22 +40,6 @@ class BlogDetails extends Component {
 											<h4>SUNO Business Ventures</h4>
 										</div>
 										<div className="blog-auth_date d-flex">
-											{/* <div className="author-img d-flex">
-												<Link to={process.env.PUBLIC_URL + "/"}>
-													<img
-														src={
-															process.env.PUBLIC_URL +
-															`/assets/images/author.jpg`
-														}
-														alt=""
-													/>
-												</Link>
-												<p>
-													<Link to={process.env.PUBLIC_URL + "/"}>
-														Medison Azar
-													</Link>
-												</p>
-											</div> */}
 											<div className="post-date">
 												<p>
 													<i className="las la-calendar"></i> December 19, 2021
@@ -63,16 +47,8 @@ class BlogDetails extends Component {
 											</div>
 											<div className="post-category">
 												<p>
-													<Link to={process.env.PUBLIC_URL + "/"}>
-														<i className="las la-bookmark"></i> Business
-														Ventures
-													</Link>
-												</p>
-											</div>
-											<div className="post-comment">
-												<p>
-													<Link to={process.env.PUBLIC_URL + "/"}>
-														<i className="las la-comment"></i> (23)
+													<Link to={process.env.PUBLIC_URL + "/services"}>
+														<i className="las la-bookmark"></i>Services
 													</Link>
 												</p>
 											</div>

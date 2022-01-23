@@ -68,28 +68,33 @@ function MobileMenu() {
 							</div>
 							<div className="mb-logo-area d-flex justify-content-between">
 								<div className="mb-logo-box d-flex">
-									<div className="hm-button">
-										<a href={process.env.PUBLIC_URL + "/"} id="mb-sidebar-btn">
-											<i className="las la-bars"></i>
-										</a>
-									</div>
 									<div className="mb-logo">
 										<Link to={process.env.PUBLIC_URL + "/"}>
 											<img
 												style={{
-													width: "80%",
-													height: "80%",
+													width: "30%",
+													height: "70%",
+													transform: "scale(1) translate(0%, 22%)",
 												}}
 												src={
 													process.env.PUBLIC_URL +
-													"/assets/images/summit-logo.png"
+													"/assets/images/summit-white-logo.png"
 												}
 												alt=""
 											/>
 										</Link>
 									</div>
 								</div>
-								<div className="mb-search-box">
+								<div className="hm-button">
+									<a
+										style={{color: "#ffffff", fontSize: "30px"}}
+										href={process.env.PUBLIC_URL + "/"}
+										id="mb-sidebar-btn"
+									>
+										<i className="las la-bars"></i>
+									</a>
+								</div>
+								{/* <div className="mb-search-box">
 									<form action="#">
 										<input
 											type="text"
@@ -100,7 +105,7 @@ function MobileMenu() {
 											<i className="las la-search"></i>
 										</button>
 									</form>
-								</div>
+								</div> */}
 							</div>
 						</Col>
 					</Row>
@@ -175,11 +180,13 @@ function MobileMenu() {
 										Investment
 									</Link>
 								</li>
-								{/* <li>
-									<Link to={process.env.PUBLIC_URL + "/students-affairs"}>
-										Students' Affairs
+								<li>
+									<Link
+										to={process.env.PUBLIC_URL + "/international-relations"}
+									>
+										International Relations
 									</Link>
-								</li> */}
+								</li>
 								<li>
 									<Link to={process.env.PUBLIC_URL + "/business-ventures"}>
 										Business Ventures

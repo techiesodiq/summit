@@ -65,19 +65,6 @@ function MobileMenu() {
 										<i className="las la-phone"></i>(+234) 802 735 2041
 									</p>
 								</div>
-								{/* <div className="topbar-item">
-									<ul className="list-unstyled list-inline">
-										<li className="list-inline-item">
-											<Link to={process.env.PUBLIC_URL + "/login"}>Log In</Link>
-										</li>
-										<li className="list-inline-item">/</li>
-										<li className="list-inline-item">
-											<Link to={process.env.PUBLIC_URL + "/registration"}>
-												Register
-											</Link>
-										</li>
-									</ul>
-								</div> */}
 							</div>
 							<div className="mb-logo-area d-flex justify-content-between">
 								<div className="mb-logo-box d-flex">
@@ -94,7 +81,8 @@ function MobileMenu() {
 													height: "80%",
 												}}
 												src={
-													process.env.PUBLIC_URL + "/assets/images/uni-logo.png"
+													process.env.PUBLIC_URL +
+													"/assets/images/summit-logo.png"
 												}
 												alt=""
 											/>

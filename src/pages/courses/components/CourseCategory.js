@@ -16,7 +16,7 @@ class CourseCategory extends Component {
 							<Link to="/projects-academic-centres">
 								<label htmlFor="cat1">
 									<input type="checkbox" id="cat1" className="check-box" />
-									Academic Centres<span>(6)</span>
+									Academic Centres<span>(5)</span>
 								</label>
 							</Link>
 						</li>

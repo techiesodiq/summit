@@ -37,7 +37,7 @@ function Contact() {
 			if (nameValue === "") {
 				setError(name, "Name can't be blank");
 			} else {
-				setSuccess(name);				
+				setSuccess(name);
 			}
 
 			if (emailValue === "") {
@@ -103,7 +103,7 @@ function Contact() {
 
 	// Hide Result
 	setTimeout(() => {
-		setResult(false)
+		setResult(false);
 	}, RESULT_SHOWTIME);
 
 	return (
@@ -130,7 +130,14 @@ function Contact() {
 									</div>
 									<div className="box-content">
 										<h5>Our Location</h5>
-										<p>Irra Road, PMB 4412, Offa, Kwara State, Nigeria.</p>
+										<address>
+											<b>Summit Campus:</b> Irra Road, PMB 4412, Offa, Kwara
+											State, Nigeria.
+										</address>
+										<address>
+											<b>Lagos Liaison Office:</b> 165, Herbert Macaulay Way,
+											Ebute Metta, Lagos, Nigeria.
+										</address>
 									</div>
 								</div>
 								<div className="contact-icon-box d-flex">

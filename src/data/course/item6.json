@@ -1,0 +1,63 @@
+[
+	{
+		"id": "1",
+		"targetId": "acad",
+		"imgUrl": "course-01.jpg",
+		"authorImg": "team-04.jpeg",
+		"authorName": "John Doe",
+		"authorCourses": "13 Courses",
+		"price": "N450M",
+		"courseTitle": "Faculty Building",
+		"courseDesc": "This project involves the construction of any of our proposed faculties. The Benefactor can fund this project partially or fully.",
+		"courseLink": "faculty-building"
+	},
+	{
+		"id": "2",
+		"targetId": "acad",
+		"imgUrl": "course-06.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Shon Doe",
+		"authorCourses": "31 Courses",
+		"price": "N120M",
+		"courseTitle": "Artificial Intelligence Centre",
+		"courseDesc": "Our proposed AI Centre is one of our dreams to position Summit as a top destination for AI in Africa.",
+		"courseLink": "artificial-intelligence-center"
+	},
+	{
+		"id": "3",
+		"targetId": "acad",
+		"imgUrl": "business-school.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Sara Kim",
+		"authorCourses": "17 Courses",
+		"price": "N250M",
+		"courseTitle": "Summit Business School",
+		"courseDesc": "We have numerous research projects handled by our scholars that await sponsorship. You can choose to fund anyone of them.",
+		"courseLink": "summit-business-school"
+	},
+	{
+		"id": "4",
+		"targetId": "acad",
+		"imgUrl": "course-012.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Shon Doe",
+		"authorCourses": "31 Courses",
+		"price": "N10M",
+		"courseTitle": "Lecture Theatre",
+		"courseDesc": "In recognition of our best their hard work and academic excellence, we celebrate our best students on the prize-given day.",
+		"courseLink": "lecture-theater"
+	},
+
+	{
+		"id": "5",
+		"targetId": "acad",
+		"imgUrl": "course-014.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Shon Doe",
+		"authorCourses": "31 Courses",
+		"price": "N250M",
+		"courseTitle": "Open Distance Learning Centre",
+		"courseDesc": "In recognition of our best their hard work and academic excellence, we celebrate our best students on the prize-given day.",
+		"courseLink": "open-distance-learning-centre"
+	}
+]

@@ -1,0 +1,26 @@
+[
+	{
+		"id": "1",
+		"targetId": "recog",
+		"imgUrl": "course-03.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Kim Chang",
+		"authorCourses": "26 Courses",
+		"price": "N15M",
+		"courseTitle": "Professorial Chair",
+		"courseDesc": "A benefactor can make a substantial contribution to the salary and other costs of a Named Professorial Chair.",
+		"courseLink": "professorial-chair"
+	},
+	{
+		"id": "2",
+		"targetId": "recog",
+		"imgUrl": "course-08.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Sara Kim",
+		"authorCourses": "17 Courses",
+		"price": "N15M",
+		"courseTitle": "Research Grant Award",
+		"courseDesc": "We have numerous research projects handled by our scholars that await sponsorship. You can choose to fund anyone of them.",
+		"courseLink": "research-grant-award"
+	}
+]

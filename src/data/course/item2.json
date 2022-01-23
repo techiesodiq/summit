@@ -1,0 +1,40 @@
+[
+	{
+		"id": "1",
+		"targetId": "other",
+		"imgUrl": "course-05.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Sara Kim",
+		"authorCourses": "17 Courses",
+		"price": "N400M",
+		"courseTitle": "Teaching & Lab Facilities",
+		"courseDesc": "You can support us to upgrade any of our existing teaching or laboratory facilities of your choice.",
+		"courseLink": "teaching-and-lab-facilities"
+	},
+
+	{
+		"id": "2",
+		"targetId": "other",
+		"imgUrl": "startup.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Shon Doe",
+		"authorCourses": "31 Courses",
+		"price": "N1M",
+		"courseTitle": "Graduands' Startup Fund",
+		"courseDesc": "We seek support to support our young graduates with entrepreneurship spirit to become an employer of labour.",
+		"courseLink": "graduands-startup-fund"
+	},
+
+	{
+		"id": "3",
+		"targetId": "other",
+		"imgUrl": "course-013.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Shon Doe",
+		"authorCourses": "31 Courses",
+		"price": "N120M",
+		"courseTitle": "Halls of Residence",
+		"courseDesc": "In recognition of our best their hard work and academic excellence, we celebrate our best students on the prize-given day.",
+		"courseLink": "halls-of-residence"
+	}
+]

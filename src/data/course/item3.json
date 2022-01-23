@@ -1,0 +1,26 @@
+[
+	{
+		"id": "1",
+		"targetId": "spec",
+		"imgUrl": "course-04.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Jim Hunt",
+		"authorCourses": "09 Courses",
+		"price": "N75M",
+		"courseTitle": "Sport Centre",
+		"courseDesc": "We welcome benefactors to support us in upgrading and equipping our existing Sport Centre to meet our desired taste.",
+		"courseLink": "sports-centre"
+	},
+	{
+		"id": "2",
+		"targetId": "spec",
+		"imgUrl": "course-015.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Shon Doe",
+		"authorCourses": "31 Courses",
+		"price": "N100M",
+		"courseTitle": "International Conference Centre",
+		"courseDesc": "In recognition of our best their hard work and academic excellence, we celebrate our best students on the prize-given day.",
+		"courseLink": "international-conference-centre"
+	}
+]

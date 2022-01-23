@@ -3,8 +3,6 @@
 import React, {Component} from "react";
 import {Col, Row} from "react-bootstrap";
 import CourseCategory from "./CourseCategory";
-import CoursePrice from "./CoursePrice";
-import CourseTag from "./CourseTag";
 import PopularCourse from "./PopularCourse";
 
 class CourseSidebar extends Component {
@@ -18,15 +16,15 @@ class CourseSidebar extends Component {
 					<Col md="12">
 						<CourseCategory />
 					</Col>
-					<Col md="12">
+					{/* <Col md="12">
 						<CoursePrice />
-					</Col>
+					</Col> */}
 					<Col md="12">
 						<PopularCourse />
 					</Col>
-					<Col md="12">
+					{/* <Col md="12">
 						<CourseTag />
-					</Col>
+					</Col> */}
 				</Row>
 			</div>
 		);

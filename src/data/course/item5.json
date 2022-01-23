@@ -1,0 +1,26 @@
+[
+	{
+		"id": "1",
+		"targetId": "sch",
+		"imgUrl": "course-02.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Jara Sen",
+		"authorCourses": "21 Courses",
+		"price": "N1.5M",
+		"courseTitle": "Student's Scholarship Award",
+		"courseDesc": "You can fund a partial or full scholarship award to our brilliant or indigent students to support their education.",
+		"courseLink": "students-scholarship-award"
+	},
+	{
+		"id": "2",
+		"targetId": "sch",
+		"imgUrl": "course-09.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Shon Doe",
+		"authorCourses": "31 Courses",
+		"price": "N3M",
+		"courseTitle": "Prize Given Award",
+		"courseDesc": "In recognition of our best their hard work and academic excellence, we celebrate our best students on the prize-given day.",
+		"courseLink": "prize-given-award"
+	}
+]

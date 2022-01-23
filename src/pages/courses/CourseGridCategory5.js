@@ -5,7 +5,7 @@ import {Col, Container, Row} from "react-bootstrap";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import FooterTwo from "../../components/FooterTwo";
 import HeaderTwo from "../../components/HeaderTwo";
-import CourseItemGrid from "./components/CourseItemsGrid";
+import CourseItemGrid from "./components/CourseItemsGrid5";
 import CourseSidebar from "./components/CourseSidebar";
 import {Styles} from "./styles/course.js";
 

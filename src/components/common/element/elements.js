@@ -1,12 +1,18 @@
 /** @format */
 
 export const colors = {
-	bg1: "#182B49",
+	// bg1: "#182B49",
+	bg1: "#008037",
 	bg2: "#F6F9FF",
+	bg3: "#182B49",
+	// bg2: "#cde265",
+	// bg2: "#7ed957",
 	gr_bg: "linear-gradient(90deg, #11B67A 0%, #009444 100%)",
 	gr_bg2: "linear-gradient(90deg, #009444 0%, #11B67A 100%)",
-	copy_bg: "#122340",
+	// copy_bg: "#122340",
 	// copy_bg: "#FFA118",
+	// copy_bg: "#2d3748",
+	copy_bg: "#fff",
 	blue: "#2c97ea",
 	green: "#11B67A",
 	green2: "#00a76a",

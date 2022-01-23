@@ -52,7 +52,8 @@ const CourseItemGrid = () => {
 										textAlign: "center",
 										padding: "11px",
 										borderRadius: "5px",
-										marginTop: "0px",
+										marginTop: "1px",
+										// marginTop: "0px",
 									}}
 								>
 									Give Now

@@ -72,9 +72,9 @@ function MobileMenu() {
 										<Link to={process.env.PUBLIC_URL + "/"}>
 											<img
 												style={{
-													width: "30%",
-													height: "70%",
-													transform: "scale(1) translate(0%, 22%)",
+													width: "92%",
+													height: "68%",
+													// transform: "scale(1) translate(0%, 0%)",
 												}}
 												src={
 													process.env.PUBLIC_URL +
@@ -87,25 +87,13 @@ function MobileMenu() {
 								</div>
 								<div className="hm-button">
 									<a
-										style={{color: "#ffffff", fontSize: "30px"}}
+										style={{color: "#ffffff", fontSize: "45px"}}
 										href={process.env.PUBLIC_URL + "/"}
 										id="mb-sidebar-btn"
 									>
 										<i className="las la-bars"></i>
 									</a>
 								</div>
-								{/* <div className="mb-search-box">
-									<form action="#">
-										<input
-											type="text"
-											name="search"
-											placeholder="Search Here"
-										/>
-										<button type="submit">
-											<i className="las la-search"></i>
-										</button>
-									</form>
-								</div> */}
 							</div>
 						</Col>
 					</Row>

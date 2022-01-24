@@ -1,110 +1,53 @@
 /** @format */
 
 import emailjs from "@emailjs/browser";
-import React, {useEffect, useRef, useState} from "react";
+import {Formik} from "formik";
+import React, {useRef, useState} from "react";
 import {Col, Container, Row} from "react-bootstrap";
+import SweetAlert from "react-bootstrap-sweetalert";
+import * as Yup from "yup";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import FooterTwo from "../../components/FooterTwo";
 import HeaderTwo from "../../components/HeaderTwo";
 import GoogleMap from "./GoogleMap";
 import {Styles} from "./styles/contact.js";
 
-const Result = () => (
-	<p>Your message has been successfully sent. We will contact you soon.</p>
-);
+const initialStates = {
+	feedbackModal: {
+		open: false,
+		message: "",
+		title: "",
+	},
+	warningFeedbackModal: {
+		open: false,
+		message: "",
+		title: "",
+	},
+};
 
 function Contact() {
-	const [result, setResult] = useState(false);
-	const RESULT_SHOWTIME = 5000;
-
-	useEffect(() => {
-		const form = document.getElementById("form_contact");
-		const name = document.getElementById("contact_name");
-		const email = document.getElementById("contact_email");
-		const subject = document.getElementById("contact_subject");
-		const message = document.getElementById("contact_message");
-
-		form.addEventListener("submit", formSubmit);
-
-		function formSubmit(e) {
-			e.preventDefault();
-
-			const nameValue = name.value.trim();
-			const emailValue = email.value.trim();
-			const subjectValue = subject.value.trim();
-			const messageValue = message.value.trim();
-
-			if (nameValue === "") {
-				setError(name, "Name can't be blank");
-			} else {
-				setSuccess(name);
-			}
-
-			if (emailValue === "") {
-				setError(email, "Email can't be blank");
-			} else if (!isEmail(emailValue)) {
-				setError(email, "Not a valid email");
-			} else {
-				setSuccess(email);
-			}
-
-			if (subjectValue === "") {
-				setError(subject, "Subject can't be blank");
-			} else {
-				setSuccess(subject);
-			}
-
-			if (messageValue === "") {
-				setError(message, "Message can't be blank");
-			} else {
-				setSuccess(message);
-			}
-		}
-
-		function setError(input, message) {
-			const formControl = input.parentElement;
-			const errorMsg = formControl.querySelector(".contact_input-msg");
-			formControl.className = "form-control text-left error";
-			errorMsg.innerText = message;
-		}
-
-		function setSuccess(input) {
-			const formControl = input.parentElement;
-			formControl.className = "form-control success";
-		}
-
-		function isEmail(email) {
-			return /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(email);
-		}
-	});
-
 	const form = useRef();
-	const sendEmail = (e) => {
-		e.preventDefault();
+	const [loading, setLoading] = useState(false);
+	const [feedbackModal, setFeedbackModal] = useState(
+		initialStates.feedbackModal
+	);
+	const [warningFeedbackModal, setWarningFeedbackModal] = useState(
+		initialStates.warningFeedbackModal
+	);
 
-		emailjs
-			.sendForm(
-				"service_r73zsus",
-				"template_xa2t6pf",
-				form.current,
-				"user_z3w4Z9rMH6T7xyd87noOV"
-			)
-			.then(
-				(result) => {
-					console.log(result.text);
-				},
-				(error) => {
-					console.log(error.text);
-				}
-			);
-		e.target.reset();
-		setResult(true);
+	const closeFeedbackModal = () => {
+		setFeedbackModal(initialStates.feedbackModal);
+	};
+	const closeWarningFeedbackModal = () => {
+		setWarningFeedbackModal(initialStates.warningFeedbackModal);
 	};
 
-	// Hide Result
-	setTimeout(() => {
-		setResult(false);
-	}, RESULT_SHOWTIME);
+	const formikInitialValues = {
+		fullName: "",
+		email: "",
+		subject: "",
+		message: "",
+	};
 
 	return (
 		<Styles>
@@ -198,66 +141,176 @@ function Contact() {
 										<h4>Get In Touch</h4>
 									</div>
 									<div className="form-box">
-										<form
-											ref={form}
-											onSubmit={sendEmail}
-											id="form_contact"
-											className="form"
+										<Formik
+											initialValues={formikInitialValues}
+											validationSchema={Yup.object({
+												fullName: Yup.string().required("Name can't be blank"),
+												email: Yup.string()
+													.email("Not a valid email")
+													.required("Email can't be blank"),
+												subject: Yup.string().required(
+													"Subject can't be blank"
+												),
+												message: Yup.string()
+													.required("Message can't be blank")
+													.max(500, "Must be 500 characters or less"),
+											})}
+											onSubmit={async (values, {resetForm}) => {
+												setLoading(true);
+												emailjs
+													.sendForm(
+														"service_r73zsus",
+														"template_xa2t6pf",
+														form.current,
+														"user_z3w4Z9rMH6T7xyd87noOV"
+													)
+													.then(
+														(result) => {
+															console.log(result.text);
+															setLoading(false);
+															setFeedbackModal((prev) => ({
+																...prev,
+																open: true,
+																success: true,
+																error: false,
+																title: "Sent!",
+																message:
+																	"Email sent. We will contact you soon. Thank you.",
+															}));
+														},
+														(error) => {
+															console.log(error.text);
+															setLoading(false);
+															setWarningFeedbackModal((prev) => ({
+																...prev,
+																open: true,
+																success: false,
+																error: true,
+																title: "Failed!",
+																message: error.text,
+															}));
+														}
+													);
+												resetForm({values: ""});
+											}}
 										>
-											<Row>
-												<Col md="6">
-													<p className="form-control">
-														<input
-															name="fullName"
-															type="text"
-															placeholder="Full Name"
-															id="contact_name"
-														/>
-														<span className="contact_input-msg"></span>
-													</p>
-												</Col>
-												<Col md="6">
-													<p className="form-control">
-														<input
-															name="email"
-															type="email"
-															placeholder="Email Address"
-															id="contact_email"
-														/>
-														<span className="contact_input-msg"></span>
-													</p>
-												</Col>
-												<Col md="12">
-													<p className="form-control">
-														<input
-															name="subject"
-															type="text"
-															placeholder="Subject"
-															id="contact_subject"
-														/>
-														<span className="contact_input-msg"></span>
-													</p>
-												</Col>
-												<Col md="12">
-													<p className="form-control">
-														<textarea
-															name="message"
-															id="contact_message"
-															placeholder="Enter Message"
-														></textarea>
-														<span className="contact_input-msg"></span>
-													</p>
-												</Col>
-												<Col md="12">
-													<button>Send Message</button>
-												</Col>
-												<Row>
-													<Col md="12">
-														<div>{result ? <Result /> : null}</div>
-													</Col>
-												</Row>
-											</Row>
-										</form>
+											{(props) => {
+												return (
+													<form
+														ref={form}
+														onSubmit={props.handleSubmit}
+														id="form_contact"
+														className="form"
+													>
+														<Row>
+															<Col md="6">
+																<p className="form-control">
+																	<input
+																		name="fullName"
+																		type="text"
+																		placeholder="Enter Full Name"
+																		id="contact_name"
+																		onBlur={props.handleBlur}
+																		onChange={props.handleChange}
+																		value={props.values.fullName}
+																	/>
+																	{props.touched.fullName &&
+																	props.errors.fullName ? (
+																		<p style={{color: "red", fontSize: "11px"}}>
+																			{props.errors.fullName}
+																		</p>
+																	) : null}
+																</p>
+															</Col>
+															<Col md="6">
+																<p className="form-control">
+																	<input
+																		name="email"
+																		type="email"
+																		placeholder="Enter Email Address"
+																		id="contact_email"
+																		onBlur={props.handleBlur}
+																		onChange={props.handleChange}
+																		value={props.values.email}
+																	/>
+																	{props.touched.email && props.errors.email ? (
+																		<p style={{color: "red", fontSize: "11px"}}>
+																			{props.errors.email}
+																		</p>
+																	) : null}
+																</p>
+															</Col>
+															<Col md="12">
+																<p className="form-control">
+																	<input
+																		name="subject"
+																		type="text"
+																		placeholder="Enter Subject"
+																		id="contact_subject"
+																		onBlur={props.handleBlur}
+																		onChange={props.handleChange}
+																		value={props.values.subject}
+																	/>
+																	{props.touched.subject &&
+																	props.errors.subject ? (
+																		<p style={{color: "red", fontSize: "11px"}}>
+																			{props.errors.subject}
+																		</p>
+																	) : null}
+																</p>
+															</Col>
+															<Col md="12">
+																<p className="form-control">
+																	<textarea
+																		name="message"
+																		id="contact_message"
+																		placeholder="Enter Message"
+																		onBlur={props.handleBlur}
+																		onChange={props.handleChange}
+																		value={props.values.message}
+																	></textarea>
+																	{props.touched.message &&
+																	props.errors.message ? (
+																		<p style={{color: "red", fontSize: "11px"}}>
+																			{props.errors.message}
+																		</p>
+																	) : null}
+																</p>
+															</Col>
+															<Col md="12">
+																<button>
+																	{loading ? "Sending..." : "Send Message"}
+																</button>
+															</Col>
+														</Row>
+													</form>
+												);
+											}}
+										</Formik>
+										<Col lg={12}>
+											{feedbackModal.open && (
+												<SweetAlert
+													title={feedbackModal.title}
+													success
+													confirmBtnBsStyle="success"
+													onConfirm={closeFeedbackModal}
+												>
+													{feedbackModal.message}
+												</SweetAlert>
+											)}
+											<div>
+												{warningFeedbackModal.open && (
+													<SweetAlert
+														title={warningFeedbackModal.title}
+														danger
+														confirmBtnBsStyle="danger"
+														onConfirm={closeWarningFeedbackModal}
+													>
+														{warningFeedbackModal.message}
+													</SweetAlert>
+												)}
+											</div>
+										</Col>
 									</div>
 								</div>
 							</Col>

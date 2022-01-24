@@ -72,8 +72,8 @@ function MobileMenu() {
 										<Link to={process.env.PUBLIC_URL + "/"}>
 											<img
 												style={{
-													width: "88%",
-													height: "67%",
+													width: "92%",
+													height: "68%",
 													// transform: "scale(1) translate(0%, 0%)",
 												}}
 												src={

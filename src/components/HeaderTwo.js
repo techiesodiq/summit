@@ -144,13 +144,12 @@ class HeaderTwo extends Component {
 									<Link to={process.env.PUBLIC_URL + "/"}>
 										<img
 											src={
-												process.env.PUBLIC_URL +
-												"/assets/images/summit-logo1.png"
+												process.env.PUBLIC_URL + "/assets/images/suab-logo.png"
 											}
 											alt=""
 											style={{
-												height: "40%",
-												width: "40%",
+												// height: "40%",
+												width: "50%",
 												transform: "scale(1) translate(0%, -20%)",
 											}}
 										/>

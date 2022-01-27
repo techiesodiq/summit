@@ -61,7 +61,10 @@ function FooterTwo() {
 									Summit University, Offa is a private university established to
 									offer qualitative tertiary education to students irrespective
 									of nationality, ethnicity, creed and religion.
-									<Link to="about"> Read more here...</Link>
+									<Link to="about">
+										{" "}
+										<span style={{color: "#313740"}}>Read more here...</span>
+									</Link>
 								</p>
 								<br />
 								<ul className="list-unstyled">
@@ -209,6 +212,7 @@ function FooterTwo() {
 														onBlur={props.handleBlur}
 														onChange={props.handleChange}
 														value={props.values.name}
+														style={{backgroundColor: "#fff", color: "#000"}}
 													/>
 													{props.touched.name && props.errors.name ? (
 														<p style={{color: "red", fontSize: "11px"}}>
@@ -225,6 +229,7 @@ function FooterTwo() {
 														onBlur={props.handleBlur}
 														onChange={props.handleChange}
 														value={props.values.email}
+														style={{backgroundColor: "#fff", color: "#000"}}
 													/>
 													{props.touched.email && props.errors.email ? (
 														<p style={{color: "red", fontSize: "11px"}}>

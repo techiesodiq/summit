@@ -5,43 +5,50 @@
 			"id": "1",
 			"boxIcon": "flaticon-thumbs-like",
 			"title": "Endowment",
-			"subTitle": "Endowment promotes important financial stability to Summit."
+			"subTitle": "Endowment promotes important financial stability to Summit.",
+			"link": "endowment"
 		},
 		{
 			"id": "2",
 			"boxIcon": "flaticon-reading",
 			"title": "Research Grants",
-			"subTitle": "Our scholars need grants to fund their research works."
+			"subTitle": "Our scholars need grants to fund their research works.",
+			"link": "research-grants"
 		},
 		{
 			"id": "3",
 			"boxIcon": "flaticon-teacher",
 			"title": "Professorial Chairs",
-			"subTitle": "The available professorial chairs are to attract seasoned scholars."
+			"subTitle": "The available professorial chairs are to attract seasoned scholars.",
+			"link": "professorial-chairs"
 		},
 		{
 			"id": "4",
 			"boxIcon": "flaticon-unlimited",
 			"title": "Students' Scholarship",
-			"subTitle": "The students' scholarship is to support the students' learning."
+			"subTitle": "The students' scholarship is to support the students' learning.",
+			"link": "students-scholarship"
 		},
 		{
 			"id": "5",
 			"boxIcon": "flaticon-locations",
 			"title": "Investment",
-			"subTitle": "Investment is another scheme aimed to sustain the university."
+			"subTitle": "Investment is another scheme aimed to sustain the university.",
+			"link": "investment"
 		},
 		{
 			"id": "6",
 			"boxIcon": "flaticon-support",
-			"title": "Students' Affairs",
-			"subTitle": "We have also setup other schemes to support the students' welfares."
+			"title": "International Relations",
+			"subTitle": "We partner with several bodies across the globe.",
+			"link": "international-relations"
 		},
 		{
 			"id": "7",
-			"boxIcon": "flaticon-support",
+			"boxIcon": "flaticon-locations",
 			"title": "Business Ventures",
-			"subTitle": "The small business unit is aimed at supporting the university goal."
+			"subTitle": "The small business unit is aimed at supporting the university goal.",
+			"link": "business-ventures"
 		}
 	]
 }

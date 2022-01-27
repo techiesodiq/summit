@@ -1,49 +1,47 @@
 /** @format */
 
-import React, {useEffect} from "react";
+import {Formik} from "formik";
+import React, {useState} from "react";
 import {Col, Container, Row} from "react-bootstrap";
+import SweetAlert from "react-bootstrap-sweetalert";
 import Timer from "react-compound-timer";
 import {Link} from "react-router-dom";
+import * as Yup from "yup";
 import Datas from "../../data/coming-soon/coming-soon.json";
 import {Styles} from "./styles/comingSoon.js";
 
+const initialStates = {
+	feedbackModal: {
+		open: false,
+		message: "",
+		title: "",
+	},
+	warningFeedbackModal: {
+		open: false,
+		message: "",
+		title: "",
+	},
+};
+
 function ComingSoon() {
-	useEffect(() => {
-		const form = document.getElementById("cm_form");
-		const email = document.getElementById("cm_email");
+	const [loading, setLoading] = useState(false);
+	const [feedbackModal, setFeedbackModal] = useState(
+		initialStates.feedbackModal
+	);
+	const [warningFeedbackModal, setWarningFeedbackModal] = useState(
+		initialStates.warningFeedbackModal
+	);
 
-		form.addEventListener("submit", formSubmit);
+	const closeFeedbackModal = () => {
+		setFeedbackModal(initialStates.feedbackModal);
+	};
+	const closeWarningFeedbackModal = () => {
+		setWarningFeedbackModal(initialStates.warningFeedbackModal);
+	};
 
-		function formSubmit(e) {
-			e.preventDefault();
-
-			const emailValue = email.value.trim();
-
-			if (emailValue === "") {
-				setError(email, "Email can't be blank");
-			} else if (!isEmail(emailValue)) {
-				setError(email, "Not a valid email");
-			} else {
-				setSuccess(email);
-			}
-		}
-
-		function setError(input, message) {
-			const formControl = input.parentElement;
-			const errorMsg = formControl.querySelector(".cm_input-msg");
-			formControl.className = "form-control error";
-			errorMsg.innerText = message;
-		}
-
-		function setSuccess(input) {
-			const formControl = input.parentElement;
-			formControl.className = "form-control success";
-		}
-
-		function isEmail(email) {
-			return /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(email);
-		}
-	});
+	const formikInitialValues = {
+		email: "",
+	};
 
 	return (
 		<div className="site-wrap">
@@ -110,17 +108,95 @@ function ComingSoon() {
 												<p className="sub-text">
 													Don't miss our news & updates
 												</p>
-												<form id="cm_form" className="form">
-													<p className="form-control">
-														<input
-															type="email"
-															placeholder="Enter your email"
-															id="cm_email"
-														/>
-														<span className="cm_input-msg"></span>
-													</p>
-													<button>Submit</button>
-												</form>
+												<Formik
+													initialValues={formikInitialValues}
+													validationSchema={Yup.object({
+														email: Yup.string()
+															.email("Not a valid email")
+															.required("Email can't be blank"),
+													})}
+													onSubmit={async (values, {resetForm}) => {
+														setLoading(true);
+														resetForm({values: ""});
+														if (values) {
+															console.log(values);
+															setLoading(false);
+															setFeedbackModal((prev) => ({
+																...prev,
+																open: true,
+																success: true,
+																error: false,
+																title: "Awesome!",
+																message:
+																	"You have successfully subscribed to our mailing list. Thank you.",
+															}));
+														} else {
+															setLoading(false);
+															setWarningFeedbackModal((prev) => ({
+																...prev,
+																open: true,
+																success: false,
+																error: true,
+																title: "Failed!",
+																message: "Subscription failed",
+															}));
+														}
+													}}
+												>
+													{(props) => {
+														return (
+															<form
+																onSubmit={props.handleSubmit}
+																id="cm_form"
+																className="form"
+															>
+																<p className="form-control">
+																	<input
+																		type="email"
+																		placeholder="Enter your email"
+																		id="cm_email"
+																		name="email"
+																		onBlur={props.handleBlur}
+																		onChange={props.handleChange}
+																		value={props.values.email}
+																	/>
+																	{props.touched.email && props.errors.email ? (
+																		<p style={{color: "red", fontSize: "11px"}}>
+																			{props.errors.email}
+																		</p>
+																	) : null}
+																</p>
+																<button>
+																	{loading ? "Submitting..." : "Submit"}
+																</button>
+															</form>
+														);
+													}}
+												</Formik>
+												<Col lg={12}>
+													{feedbackModal.open && (
+														<SweetAlert
+															title={feedbackModal.title}
+															success
+															confirmBtnBsStyle="success"
+															onConfirm={closeFeedbackModal}
+														>
+															{feedbackModal.message}
+														</SweetAlert>
+													)}
+													<div>
+														{warningFeedbackModal.open && (
+															<SweetAlert
+																title={warningFeedbackModal.title}
+																danger
+																confirmBtnBsStyle="danger"
+																onConfirm={closeWarningFeedbackModal}
+															>
+																{warningFeedbackModal.message}
+															</SweetAlert>
+														)}
+													</div>
+												</Col>
 											</div>
 											<div className="cm-social">
 												<ul className="social list-unstyled list-inline">

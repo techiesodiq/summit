@@ -30,12 +30,12 @@ function StickyMenu() {
 									<img
 										style={{
 											objectFit: "cover",
-											width: "35%",
-											height: "35%",
+											width: "38%",
+											// height: "35%",
 											transform: "scale(1) translate(0%, -20%)",
 										}}
 										src={
-											process.env.PUBLIC_URL + "/assets/images/summit-logo1.png"
+											process.env.PUBLIC_URL + "/assets/images/suab-logo.png"
 										}
 										alt=""
 									/>

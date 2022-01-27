@@ -28,7 +28,10 @@ class Footer extends Component {
 										Summit University, Offa is a private university established
 										to offer qualitative tertiary education to students
 										irrespective of nationality, ethnicity, creed and religion.
-										<Link to="about"> Read more here...</Link>
+										<Link to="about">
+											{" "}
+											<span style={{color: "#313740"}}>Read more here...</span>
+										</Link>
 									</p>
 									<br />
 									<ul className="list-unstyled">

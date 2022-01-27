@@ -115,6 +115,7 @@ function HelpArea() {
 															onBlur={props.handleBlur}
 															onChange={props.handleChange}
 															value={props.values.name}
+															style={{backgroundColor: "#fff", color: "#000"}}
 														/>
 														{props.touched.name && props.errors.name ? (
 															<p
@@ -138,6 +139,7 @@ function HelpArea() {
 															onBlur={props.handleBlur}
 															onChange={props.handleChange}
 															value={props.values.email}
+															style={{backgroundColor: "#fff", color: "#000"}}
 														/>
 														{props.touched.email && props.errors.email ? (
 															<p
@@ -161,6 +163,7 @@ function HelpArea() {
 															onBlur={props.handleBlur}
 															onChange={props.handleChange}
 															value={props.values.subject}
+															// style={{backgroundColor: "#fff", color: "#000", }}
 														/>
 														{props.touched.subject && props.errors.subject ? (
 															<p

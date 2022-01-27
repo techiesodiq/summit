@@ -92,16 +92,15 @@ class CourseSlider extends Component {
 													<button
 														style={{
 															fontSize: "14px",
-															color: "#fff",
-															background:
-																"linear-gradient(90deg, #11B67A 0%, #009444 100%)",
+															color: "#008037",
+															border: "1px solid green",
+															backgroundColor: "#fff",
 															display: "inline-block",
-															width: "110px",
+															width: "100%",
 															height: "40px",
 															textAlign: "center",
 															padding: "11px",
 															borderRadius: "5px",
-															marginTop: "0px",
 														}}
 													>
 														Give Now

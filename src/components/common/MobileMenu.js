@@ -71,14 +71,9 @@ function MobileMenu() {
 									<div className="mb-logo">
 										<Link to={process.env.PUBLIC_URL + "/"}>
 											<img
-												style={{
-													width: "92%",
-													height: "68%",
-													// transform: "scale(1) translate(0%, 0%)",
-												}}
 												src={
 													process.env.PUBLIC_URL +
-													"/assets/images/summit-white-logo.png"
+													"/assets/images/suab-logo.png"
 												}
 												alt=""
 											/>

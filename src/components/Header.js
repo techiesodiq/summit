@@ -55,84 +55,6 @@ class Header extends Component {
 											</a>
 										</li>
 									</ul>
-									<ul className="list-unstyled list-inline bar-lang">
-										{/* <li className="list-inline-item">
-											<Dropdown>
-												<Dropdown.Toggle as="a">
-													<img
-														src={
-															process.env.PUBLIC_URL + "/assets/images/us.png"
-														}
-														alt=""
-													/>
-													English<i className="las la-angle-down"></i>
-												</Dropdown.Toggle>
-												<Dropdown.Menu as="ul">
-													<Dropdown.Item as="li">
-														<img
-															src={
-																process.env.PUBLIC_URL + "/assets/images/us.png"
-															}
-															alt=""
-														/>{" "}
-														English
-													</Dropdown.Item>
-													<Dropdown.Item as="li">
-														<img
-															src={
-																process.env.PUBLIC_URL +
-																"/assets/images/fra.png"
-															}
-															alt=""
-														/>{" "}
-														French
-													</Dropdown.Item>
-													<Dropdown.Item as="li">
-														<img
-															src={
-																process.env.PUBLIC_URL +
-																"/assets/images/ger.png"
-															}
-															alt=""
-														/>{" "}
-														German
-													</Dropdown.Item>
-													<Dropdown.Item as="li">
-														<img
-															src={
-																process.env.PUBLIC_URL +
-																"/assets/images/spa.png"
-															}
-															alt=""
-														/>{" "}
-														Spanish
-													</Dropdown.Item>
-													<Dropdown.Item as="li">
-														<img
-															src={
-																process.env.PUBLIC_URL +
-																"/assets/images/bra.png"
-															}
-															alt=""
-														/>{" "}
-														Brazilian
-													</Dropdown.Item>
-												</Dropdown.Menu>
-											</Dropdown>
-										</li> */}
-									</ul>
-									{/* <ul className="list-unstyled list-inline bar-login">
-										<li className="list-inline-item">
-											<Link to={process.env.PUBLIC_URL + "/login"}>
-												<i className="las la-user"></i>Log In
-											</Link>
-										</li>
-										<li className="list-inline-item">
-											<Link to={process.env.PUBLIC_URL + "/registration"}>
-												<i className="las la-user-edit"></i>Register
-											</Link>
-										</li>
-									</ul> */}
 								</div>
 							</Col>
 						</Row>
@@ -150,12 +72,11 @@ class Header extends Component {
 											style={{
 												objectFit: "cover",
 												width: "50%",
-												height: "50%",
+												// height: "50%",
 												transform: "scale(1) translate(0%, -20%)",
 											}}
 											src={
-												process.env.PUBLIC_URL +
-												"/assets/images/summit-logo1.png"
+												process.env.PUBLIC_URL + "/assets/images/suab-logo.png"
 											}
 											alt=""
 										/>
@@ -331,17 +252,6 @@ class Header extends Component {
 											</li>
 										</ul>
 										<ul className="nav search-cart-bar">
-											{/* <li className="nav-item search-box">
-												<Search />
-											</li> */}
-											{/* <li className="nav-item cart-box">
-												<Link
-													to={process.env.PUBLIC_URL + "/cart"}
-													className="nav-link nav-cart"
-												>
-													<i className="las la-shopping-bag"></i>
-												</Link>
-											</li> */}
 											<li className="nav-item side-box">
 												<Sidebar />
 											</li>

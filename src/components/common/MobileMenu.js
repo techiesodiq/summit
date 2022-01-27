@@ -73,7 +73,7 @@ function MobileMenu() {
 											<img
 												src={
 													process.env.PUBLIC_URL +
-													"/assets/images/suab-logo.png"
+													"/assets/images/suab-mobile-logo.jpeg"
 												}
 												alt=""
 											/>

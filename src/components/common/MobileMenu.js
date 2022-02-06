@@ -73,8 +73,9 @@ function MobileMenu() {
 											<img
 												src={
 													process.env.PUBLIC_URL +
-													"/assets/images/suab-mobile-logo.jpeg"
+													"/assets/images/SUAB LOGO.png"
 												}
+												style={{width: "65%"}}
 												alt=""
 											/>
 										</Link>

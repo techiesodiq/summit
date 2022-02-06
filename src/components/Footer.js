@@ -174,14 +174,14 @@ class Footer extends Component {
 							<Col md="6">
 								<div className="copy-text">
 									<p>
-										Copyright &copy; 2021 | Designed With{" "}
-										<i className="las la-heart"></i> by{" "}
+										Copyright &copy; {new Date().getFullYear()}| All rights
+										reserved <i className="las la-heart"></i> |{" "}
 										<a
 											href={process.env.PUBLIC_URL + "/"}
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											Sodiq Akanmu
+											Summit University Advancement Bureau
 										</a>
 									</p>
 								</div>

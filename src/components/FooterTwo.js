@@ -8,6 +8,7 @@ import {Link} from "react-router-dom";
 import * as Yup from "yup";
 import Datas from "../data/footer/footer2.json";
 import BackToTop from "./common/BackToTop";
+import Chatbot from "./common/Chatbot";
 import {Styles} from "./styles/footerTwo.js";
 
 const initialStates = {
@@ -312,6 +313,9 @@ function FooterTwo() {
 						</Col>
 					</Row>
 				</Container>
+
+				{/* Chatbot */}
+				<Chatbot />
 
 				{/* Back To Top  */}
 				<BackToTop />

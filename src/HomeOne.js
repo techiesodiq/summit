@@ -1,63 +1,63 @@
-import React, { Component } from 'react';
-import Header from './components/Header';
-import HeroSlider from './components/HeroSlider';
-import IconBox from './components/IconBox';
-import AboutUs from './components/AboutUs';
-import CourseFilter from './components/CourseFilter';
-import TestimonialSlider from './components/TestimonialSlider';
-import FaqEvent from './components/FaqEvent';
-import TeamSlider from './components/TeamSlider';
-import HelpArea from './components/HelpArea';
-import HomeBlog from './components/HomeBlog';
-import CampusTour from './components/CampusTour';
-import NewsletterForm from './components/NewsletterForm';
-import Footer from './components/Footer';
+/** @format */
 
-export default class HomeOne extends Component {
-    render() {
-        return (
-            <div className="main-wrapper" >
+import React from "react";
+import AboutUs from "./components/AboutUs";
+import CampusTour from "./components/CampusTour";
+import CourseFilter from "./components/CourseFilter";
+import FaqEvent from "./components/FaqEvent";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import HelpArea from "./components/HelpArea";
+import HeroSlider from "./components/HeroSlider";
+import HomeBlog from "./components/HomeBlog";
+import IconBox from "./components/IconBox";
+import NewsletterForm from "./components/NewsletterForm";
+import TeamSlider from "./components/TeamSlider";
+import TestimonialSlider from "./components/TestimonialSlider";
 
-                {/* Header */}
-                < Header />
+const HomeOne = () => {
+	return (
+		<div className="main-wrapper">
+			{/* Header */}
+			<Header />
 
-                {/* Hero Slider */}
-                < HeroSlider />
+			{/* Hero Slider */}
+			<HeroSlider />
 
-                {/* Icon Box */}
-                < IconBox />
+			{/* Icon Box */}
+			<IconBox />
 
-                {/* About Area */}
-                < AboutUs />
+			{/* About Area */}
+			<AboutUs />
 
-                {/* Course Filter */}
-                < CourseFilter />
+			{/* Course Filter */}
+			<CourseFilter />
 
-                {/* Testimonial Slider */}
-                < TestimonialSlider />
+			{/* Testimonial Slider */}
+			<TestimonialSlider />
 
-                {/* Faq & Event Area */}
-                < FaqEvent />
+			{/* Faq & Event Area */}
+			<FaqEvent />
 
-                {/* Team Slider */}
-                < TeamSlider />
+			{/* Team Slider */}
+			<TeamSlider />
 
-                {/* Help Area */}
-                < HelpArea />
+			{/* Help Area */}
+			<HelpArea />
 
-                {/* Blog Area */}
-                < HomeBlog />
+			{/* Blog Area */}
+			<HomeBlog />
 
-                {/* Campus Tour */}
-                < CampusTour />
+			{/* Campus Tour */}
+			<CampusTour />
 
-                {/* Newsletter Form */}
-                < NewsletterForm />
+			{/* Newsletter Form */}
+			<NewsletterForm />
 
-                {/* Footer */}
-                < Footer />
+			{/* Footer */}
+			<Footer />
+		</div>
+	);
+};
 
-            </div >
-        )
-    }
-}
+export default HomeOne;

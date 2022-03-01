@@ -150,7 +150,7 @@ class HeaderTwo extends Component {
 											}
 											alt=""
 										/>
-										<h6 style={{color: "#11B67A", fontWeight: "700px", fontSize: "18px"}}>Advancement Bureau</h6>
+										<h6 className="logo-header">Advancement Bureau</h6>
 									
 								</div>
 								</Link>

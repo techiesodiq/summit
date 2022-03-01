@@ -208,7 +208,7 @@ export const Styles = styled.div`
                }
             }
             .logo-header {
-              color: #11B67A; font-weight: 700px; font-size: 18px
+              color: #11B67A; font-weight: 700px; font-size: 18px;
               @media(max-width: 990px) {
                   font-size: 10px; 
                   font-weight: 500px;               

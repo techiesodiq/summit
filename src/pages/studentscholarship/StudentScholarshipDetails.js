@@ -83,7 +83,7 @@ class BlogDetails extends Component {
 											</p>
 											<br />
 											<p>
-												The scholarships awarded by the University ars designed
+												The scholarships awarded by the University are designed
 												for various categories of students. Some of the
 												available scholarships are:
 											</p>

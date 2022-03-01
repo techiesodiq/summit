@@ -140,21 +140,20 @@ class HeaderTwo extends Component {
 					<Container>
 						<Row>
 							<Col md="3">
-								<div className="logo">
-									<Link to={process.env.PUBLIC_URL + "/"}>
+							<Link to={process.env.PUBLIC_URL + "/"}>
+								<div className="logo advancement-logo">
+									
 										<img
+										    className="logo-image"
 											src={
-												process.env.PUBLIC_URL + "/assets/images/suab-logo.png"
+												process.env.PUBLIC_URL + "/assets/images/summit-white-logo.png"
 											}
 											alt=""
-											style={{
-												// height: "40%",
-												width: "50%",
-												transform: "scale(1) translate(0%, -20%)",
-											}}
 										/>
-									</Link>
+										<h6 style={{color: "#11B67A", fontWeight: "700px", fontSize: "18px"}}>Advancement Bureau</h6>
+									
 								</div>
+								</Link>
 							</Col>
 							<Col md="9">
 								<div className="menu-box d-flex justify-content-end">

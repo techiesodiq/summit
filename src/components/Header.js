@@ -66,22 +66,20 @@ class Header extends Component {
 					<Container>
 						<Row>
 							<Col md="3">
-								<div className="logo">
-									<Link to={process.env.PUBLIC_URL + "/"}>
+							<Link to={process.env.PUBLIC_URL + "/"}>
+								<div className="logo advancement-logo">
+									
 										<img
-											style={{
-												objectFit: "cover",
-												width: "50%",
-												// height: "50%",
-												transform: "scale(1) translate(0%, -20%)",
-											}}
+											className="logo-image"
 											src={
-												process.env.PUBLIC_URL + "/assets/images/suab-logo.png"
+												process.env.PUBLIC_URL + "/assets/images/summit-white-logo.png"
 											}
 											alt=""
 										/>
-									</Link>
+										<h6 className="logo-header">Advancement Bureau</h6>
+									
 								</div>
+								</Link>
 							</Col>
 							<Col md="9">
 								<div className="logo-contact-box d-flex justify-content-end">

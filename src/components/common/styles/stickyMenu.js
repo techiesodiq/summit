@@ -24,6 +24,25 @@ export const Styles = styled.div`
                 }
             }
         }
+        .advancement-logo {
+            display: flex; align-items: center; justify-content: center; transform: scale(1) translate(0%, -15%);
+            
+            .logo-image {
+                object-fit: cover;
+				width: 20%;
+                @media(max-width: 990px) {
+                    width: 30%;
+                }
+            }
+            .logo-header {
+                color: #11B67A; font-weight: 700px; font-size: 18px;
+                @media(max-width: 990px) {
+                  font-size: 14px; 
+                  font-weight: 500px;               
+                }
+            }
+            
+        }
 
         div.menu-box {
             ul.nav.menu-nav {

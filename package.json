@@ -38,7 +38,7 @@
 	},
 	"scripts": {
 		"dev": "react-scripts start",
-		"start": "node ./node_modules/serve/bin/serve.js -l 8080 -s ./build",
+		"start": "node ./node_modules/serve/bin/serve.js -l $PORT -s ./build",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"

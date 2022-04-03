@@ -52,11 +52,11 @@ function App() {
 			<Switch>
 				<Route
 					exact
-					path={`${process.env.PUBLIC_URL + "/"}`}
+					path="/"
 					component={HomeOne}
 				/>
 				<Route
-					path={`${process.env.PUBLIC_URL + "/services"}`}
+					path="/services"
 					component={HomeTwo}
 				/>
 				<Route

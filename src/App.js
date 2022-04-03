@@ -7,42 +7,42 @@ import ScrollToTop from "./helper/ScrollToTop";
 import HomeOne from "./HomeOne";
 import HomeTwo from "./HomeTwo";
 import PageNotFound from "./pages/404/PageNotFound";
-import About from "./pages/about/About";
-import Login from "./pages/account/Login";
-import Register from "./pages/account/Register";
-import Alumni from "./pages/alumni/AlumniDetails";
-import BlogClassic from "./pages/blog/BlogClassic";
-import BlogDetails from "./pages/blog/BlogDetails";
-import BlogGrid from "./pages/blog/BlogGrid";
-import BusinessVenturesDetails from "./pages/businessventures/BusinessVenturesDetails";
-import ComingSoon from "./pages/comingsoon/ComingSoon";
-import Contact from "./pages/contact/Contact";
-import CourseDetails from "./pages/courses/CourseDetails";
-import CourseGrid from "./pages/courses/CourseGrid";
-import CommunalGrid from "./pages/courses/CourseGridCategory1";
-import OthersGrid from "./pages/courses/CourseGridCategory2";
-import SpecialGrid from "./pages/courses/CourseGridCategory3";
-import RecognitionGrid from "./pages/courses/CourseGridCategory4";
-import ScholarGrid from "./pages/courses/CourseGridCategory5";
-import AcadGrid from "./pages/courses/CourseGridCategory6";
-import CourseList from "./pages/courses/CourseList";
-import EndowmentDetails from "./pages/endowment/EndowmentDetails";
-import Events from "./pages/events/Events";
-import EventDetails from "./pages/events/EventsDetails";
-import Faq from "./pages/faq/Faq";
-import Gallery from "./pages/gallery/Gallery";
-import InstructorDetails from "./pages/instructor/InstructorDetails";
-import Instructor from "./pages/instructor/Instructors";
-import InternationalRelationsDetails from "./pages/internationalRelations/InternationalRelationsDetails";
-import InvestmentDetails from "./pages/investment/InvestmentDetails";
-import Legacies from "./pages/legacies/LegaciesDetails";
-import ProfessorialChairsDetails from "./pages/professorialchairs/ProfessorialChairsDetails";
-import ResearchGrantsDetails from "./pages/researchgrants/ResearchGrantsDetails";
-import Cart from "./pages/shop/Cart";
-import ProductDetails from "./pages/shop/ProductDetails";
-import Product from "./pages/shop/Products";
-import StudentsAffairsDetails from "./pages/studentsaffairs/StudentsAffairsDetails";
-import StudentScholarshipDetails from "./pages/studentscholarship/StudentScholarshipDetails";
+// import About from "./pages/about/About";
+// import Login from "./pages/account/Login";
+// import Register from "./pages/account/Register";
+// import Alumni from "./pages/alumni/AlumniDetails";
+// import BlogClassic from "./pages/blog/BlogClassic";
+// import BlogDetails from "./pages/blog/BlogDetails";
+// import BlogGrid from "./pages/blog/BlogGrid";
+// import BusinessVenturesDetails from "./pages/businessventures/BusinessVenturesDetails";
+// import ComingSoon from "./pages/comingsoon/ComingSoon";
+// import Contact from "./pages/contact/Contact";
+// import CourseDetails from "./pages/courses/CourseDetails";
+// import CourseGrid from "./pages/courses/CourseGrid";
+// import CommunalGrid from "./pages/courses/CourseGridCategory1";
+// import OthersGrid from "./pages/courses/CourseGridCategory2";
+// import SpecialGrid from "./pages/courses/CourseGridCategory3";
+// import RecognitionGrid from "./pages/courses/CourseGridCategory4";
+// import ScholarGrid from "./pages/courses/CourseGridCategory5";
+// import AcadGrid from "./pages/courses/CourseGridCategory6";
+// import CourseList from "./pages/courses/CourseList";
+// import EndowmentDetails from "./pages/endowment/EndowmentDetails";
+// import Events from "./pages/events/Events";
+// import EventDetails from "./pages/events/EventsDetails";
+// import Faq from "./pages/faq/Faq";
+// import Gallery from "./pages/gallery/Gallery";
+// import InstructorDetails from "./pages/instructor/InstructorDetails";
+// import Instructor from "./pages/instructor/Instructors";
+// import InternationalRelationsDetails from "./pages/internationalRelations/InternationalRelationsDetails";
+// import InvestmentDetails from "./pages/investment/InvestmentDetails";
+// import Legacies from "./pages/legacies/LegaciesDetails";
+// import ProfessorialChairsDetails from "./pages/professorialchairs/ProfessorialChairsDetails";
+// import ResearchGrantsDetails from "./pages/researchgrants/ResearchGrantsDetails";
+// import Cart from "./pages/shop/Cart";
+// import ProductDetails from "./pages/shop/ProductDetails";
+// import Product from "./pages/shop/Products";
+// import StudentsAffairsDetails from "./pages/studentsaffairs/StudentsAffairsDetails";
+// import StudentScholarshipDetails from "./pages/studentscholarship/StudentScholarshipDetails";
 
 function App() {
 	return (
@@ -59,7 +59,7 @@ function App() {
 					path="/services"
 					component={HomeTwo}
 				/>
-				<Route
+				{/* <Route
 					path={`${process.env.PUBLIC_URL + "/about"}`}
 					component={About}
 				/>
@@ -96,12 +96,12 @@ function App() {
 				<Route
 					path={`${process.env.PUBLIC_URL + "/course-list"}`}
 					component={CourseList}
-				/>
+				/> */}
 				{/* <Route
 					path={`${process.env.PUBLIC_URL + "/projects-details"}`}
 					component={CourseDetails}
 				/> */}
-				<Route
+				{/* <Route
 					path={`${process.env.PUBLIC_URL + "/project/:courseLink"}`}
 					component={CourseDetails}
 				/>
@@ -149,12 +149,12 @@ function App() {
 				<Route
 					path={`${process.env.PUBLIC_URL + "/blog-classic"}`}
 					component={BlogClassic}
-				/>
+				/> */}
 				{/* <Route
 					path={`${process.env.PUBLIC_URL + "/blog-grid"}`}
 					component={BlogGrid}
 				/> */}
-				<Route
+				{/* <Route
 					path={`${process.env.PUBLIC_URL + "/news"}`}
 					component={BlogGrid}
 				/>
@@ -210,7 +210,7 @@ function App() {
 					path={`${process.env.PUBLIC_URL + "/product-details"}`}
 					component={ProductDetails}
 				/>
-				<Route path={`${process.env.PUBLIC_URL + "/cart"}`} component={Cart} />
+				<Route path={`${process.env.PUBLIC_URL + "/cart"}`} component={Cart} /> */}
 				<Route path={`*`} component={PageNotFound} />
 			</Switch>
 		</Router>

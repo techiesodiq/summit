@@ -1,6 +1,17 @@
 [
 	{
 		"id": "1",
+		"postImg": "news-001.jpeg",
+		"authorImg": "author.jpg",
+		"authorName": "Medison Azar",
+		"postDate": "March 24, 2022",
+		"postTitle": "A New Sherif Is Now in Town: SUNO Appoints A New Vice-Chancellor",
+		"postDesc": "Summit University, Offa has appointed Prof. Abiodun Musa Aibinu - a professor of mechatronics engineering - as the university's second vice-chancellor.",
+		"authorLink": "#",
+		"postLink": "a-new-sherif-is-now-in-town"
+	},
+	{
+		"id": "2",
 		"postImg": "news-06.jpg",
 		"authorImg": "author.jpg",
 		"authorName": "Medison Azar",
@@ -11,7 +22,7 @@
 		"postLink": "formal-inauguration-and-maiden-matriculation-programme-ceremony"
 	},
 	{
-		"id": "2",
+		"id": "3",
 		"postImg": "news-04.jpg",
 		"authorImg": "author.jpg",
 		"authorName": "Medison Azar",
@@ -22,7 +33,7 @@
 		"postLink": "adsn-lagos-donates-60-bed-space-hostel"
 	},
 	{
-		"id": "3",
+		"id": "4",
 		"postImg": "news-01.jpg",
 		"authorImg": "author.jpg",
 		"authorName": "Medison Azar",
@@ -33,7 +44,7 @@
 		"postLink": "suno-receives-a-lecture-theatre"
 	},
 	{
-		"id": "4",
+		"id": "5",
 		"postImg": "news-05.jpg",
 		"authorImg": "author.jpg",
 		"authorName": "Medison Azar",
@@ -44,7 +55,7 @@
 		"postLink": "okebukola-visits-summit"
 	},
 	{
-		"id": "5",
+		"id": "6",
 		"postImg": "news-02.jpg",
 		"authorImg": "author.jpg",
 		"authorName": "Medison Azar",
@@ -56,7 +67,7 @@
 	},
 
 	{
-		"id": "6",
+		"id": "7",
 		"postImg": "news-03.jpg",
 		"authorImg": "author.jpg",
 		"authorName": "Medison Azar",

@@ -1,25 +1,30 @@
 [
 	{
 		"id": "1",
-		"postImg": "news-06.jpg",
+		"postImg": "news-001.jpeg",
 		"authorImg": "author.jpg",
 		"authorName": "Medison Azar",
-		"postDate": "May 11, 2017",
-		"postTitle": "Formal Inauguration and Maiden Matriculation Programme Ceremony.",
-		"postDesc": "It was a historical day for the entire staff and students of Summit University, Offa as the university community had its inauguration and matriculation ceremony.",
+		"postDate": "March 24, 2022",
+		"postTitle": "A New Sherif is in Town: SUNO Appoints A New Vice-Chancellor",
+		"postDesc": "Summit University, Offa has appointed Prof. Abiodun Musa Aibinu - a professor of mechatronics engineering - as the university's second vice-chancellor.",
 		"authorLink": "#",
 		"postLink": "formal-inauguration-and-maiden-matriculation-programme-ceremony",
 		"postDetails": [
-			"It was a historical day for the entire staff and students of Summit University, Offa as the university community had its inauguration and matriculation ceremony. Forty-two pioneer students took the matriculation oath at the ceremony held at the school premises.",
-			"The university is owned by the Ansar-Ud-Deen Society of Nigeria and was among private universities newly approved by the Federal Government.",
-			"At the occasion, the Vice-Chancellor (VC), Prof Hussein Oloyede, expressed appreciation to the school proprietor, Board of Trustees and Governing Council for considering him worthy of the position. Oloyede congratulated the students, urging them to be ambitious and work hard to leave the institution with good grades. He said the institution was set up with a vision to train graduates in knowledge, skills and moral uprightness, adding that the university certificates would be issued to students found worthy in learning and character. The VC enjoined the pioneer students to shun criminalities, including cultism and examination malpractices, noting that the management would maintain zero tolerance for indicent acts.",
-			"Pro-Chancellor, Dr Wale Babalakin, recalled that the setting up of the school was challenging, adding that members of the Governing Council worked tirelessly to ensure the take off of the school Babalakin, who is Chairman of Bi-Courtney, said: 'I commend members of Governing Council for their support and the support they gave the proprietor when the university was seeking candidates to be admitted. I kept to my promise to offer rebate of 50 per cent of the school fees to the first 10 students to enroll, and also my pledge to donate an e-library to the school. Let me join the management to congratulate the parents and our pioneer students.'",
-			"Ansar-Ud-Deen National President Alhaji Femi Okunnu, said: 'Today's occasion crowns the aspirations of the founding fathers of the Ansar ud-Deen Society of Nigeria to provide quality education to all our children. The journey began in March 2002 like an imagination. We set up a higher education committee saddled with the task of establishing a befitting university for the Society.'",
-			"'On March 5, 2015, the society obtained a provisional licence to operate a private university. We acknowledge the effort of the Offa community and the Olofa of Offa, Oba Muftau Esuwoye II, who donated a hall of residence to the school.'",
-			"Africa's first professor of Geology, Jamiu Oyawoye donated N2 million to the school, while encouraging the students to strive for excellence. He promised to offer N 250,000 to the overall best student and scholarship up to doctoral level.",
-			"National Union of Road Transport Workers (NURTW) National President, Alhaji Najeem-deen Usman Yasin, donated a Nissan Urvan bus to the institution.",
-			"The university took off with three colleges and 12 disciplines, including Computer Science, Mathematics, Physics, Biology, Chemistry, Arabic, Islamic Studies, English and Literary Studies, Accounting, Business Administration, Economics, and Political Science.",
-			"The highpoint was the formal admission of the pioneer students into the school by the VC, and handing over of the instrument of Authority from the proprietor to the VC. The event was attended by the principal officers of the university, Deans of Colleges, Senate members and members of Ansar ud-Deen Society of Nigeria."
+			"The Board of Trustees has approved the appointment of Prof. Abiodun Musa Aibinu as the second Vice-Chancellor of Summit University, Offa on the recommendation of the Governing Council. The appointment is sequel to an earlier interview conducted by the Joint Council Senate Selection Committee which is composed of highly experienced stakeholders of the University. The appointment is in line with the provision of the Summit University Law 2015.",
+
+			"Professor Abiodun Musa Aibinu until his appointment as the new Vice-Chancellor of Summit University, Offa is a Professor of Mechatronics at the Federal University of Technology, Minna, Niger State, Nigeria. He is popularly recognised as an “Acadopreneur” and a highly-motivated career driven achiever with over twenty-three (23) years working experience in the field of Artificial Intelligence, Information and Communication Technology (ICT), Robotics, Mechatronics Engineering, Telecommunication Engineering and Industrial Automation. He also has teaching and research experience in the field of Artificial intelligence and Robotics.",
+
+			"Professor Aibinu, Abiodun Musa was born on 9th January, 1973 in Lagos, Nigeria and hails from the city of Ibadan, Oyo State. He attended Euba Boys’ Secondary School, Mushin, Lagos, The Polytechnic Ibadan, Oyo State, Obafemi Awolowo University, Ile-Ife, Osun State, Blekinge Institute of Technology, Blekinge, Sweden and International Islamic University Malaysia, Malaysia respectively.",
+
+			"Professor Abiodun holds a Doctor of Philosophy (Ph.D) in Artificial Intelligence to Digital Signal and Image Processing from International Islamic University Malaysia (IIUM), Malaysia between 2006 and 2009.",
+
+			"He has been actively involved in teaching, supervision, mentoring and research activities at various Universities in Nigeria and Malaysia. Until his appointment, he was a Professor of Mechatronics Engineering at Federal University of Technology (FUT) Minna, Nigeria, where he held many important academic positions.",
+
+			"Professor Aibinu, Abiodun Musa had participated and won several academics and research awards at various international and national exhibitions. He is happily married and blessed with children. He would assume duty as the second Vice-Chancellor of the Institution in April, 2022.",
+
+			"Summit University, Offa was established by Ansar-Ud-Deen Society of Nigeria as an Islamic faith-based Institution which offers qualitative tertiary education to all Nigerians. The University obtained its provisional licence (No. 59 Private University) issued by the National Universities Commission (NUC) on March 5, 2015 and Full Operational Licence in April 1, 2019. Academic activities commenced on March 6, 2017 and the University has been striving towards achieving the vision of the founders.",
+
+			"The University has Full Accreditation in all its programmes that were accredited by the NUC and has also produced two sets of graduates who are currently serving the nation under the National Youth Service Corps (NYSC) Scheme."
 		]
 	},
 	{
@@ -88,9 +93,31 @@
 			"During the ceremony students were ask to take an oat and to sign which merit them the citizenship of the University."
 		]
 	},
-
 	{
 		"id": "6",
+		"postImg": "news-06.jpg",
+		"authorImg": "author.jpg",
+		"authorName": "Medison Azar",
+		"postDate": "May 11, 2017",
+		"postTitle": "Formal Inauguration and Maiden Matriculation Programme Ceremony.",
+		"postDesc": "It was a historical day for the entire staff and students of Summit University, Offa as the university community had its inauguration and matriculation ceremony.",
+		"authorLink": "#",
+		"postLink": "formal-inauguration-and-maiden-matriculation-programme-ceremony",
+		"postDetails": [
+			"It was a historical day for the entire staff and students of Summit University, Offa as the university community had its inauguration and matriculation ceremony. Forty-two pioneer students took the matriculation oath at the ceremony held at the school premises.",
+			"The university is owned by the Ansar-Ud-Deen Society of Nigeria and was among private universities newly approved by the Federal Government.",
+			"At the occasion, the Vice-Chancellor (VC), Prof Hussein Oloyede, expressed appreciation to the school proprietor, Board of Trustees and Governing Council for considering him worthy of the position. Oloyede congratulated the students, urging them to be ambitious and work hard to leave the institution with good grades. He said the institution was set up with a vision to train graduates in knowledge, skills and moral uprightness, adding that the university certificates would be issued to students found worthy in learning and character. The VC enjoined the pioneer students to shun criminalities, including cultism and examination malpractices, noting that the management would maintain zero tolerance for indicent acts.",
+			"Pro-Chancellor, Dr Wale Babalakin, recalled that the setting up of the school was challenging, adding that members of the Governing Council worked tirelessly to ensure the take off of the school Babalakin, who is Chairman of Bi-Courtney, said: 'I commend members of Governing Council for their support and the support they gave the proprietor when the university was seeking candidates to be admitted. I kept to my promise to offer rebate of 50 per cent of the school fees to the first 10 students to enroll, and also my pledge to donate an e-library to the school. Let me join the management to congratulate the parents and our pioneer students.'",
+			"Ansar-Ud-Deen National President Alhaji Femi Okunnu, said: 'Today's occasion crowns the aspirations of the founding fathers of the Ansar ud-Deen Society of Nigeria to provide quality education to all our children. The journey began in March 2002 like an imagination. We set up a higher education committee saddled with the task of establishing a befitting university for the Society.'",
+			"'On March 5, 2015, the society obtained a provisional licence to operate a private university. We acknowledge the effort of the Offa community and the Olofa of Offa, Oba Muftau Esuwoye II, who donated a hall of residence to the school.'",
+			"Africa's first professor of Geology, Jamiu Oyawoye donated N2 million to the school, while encouraging the students to strive for excellence. He promised to offer N 250,000 to the overall best student and scholarship up to doctoral level.",
+			"National Union of Road Transport Workers (NURTW) National President, Alhaji Najeem-deen Usman Yasin, donated a Nissan Urvan bus to the institution.",
+			"The university took off with three colleges and 12 disciplines, including Computer Science, Mathematics, Physics, Biology, Chemistry, Arabic, Islamic Studies, English and Literary Studies, Accounting, Business Administration, Economics, and Political Science.",
+			"The highpoint was the formal admission of the pioneer students into the school by the VC, and handing over of the instrument of Authority from the proprietor to the VC. The event was attended by the principal officers of the university, Deans of Colleges, Senate members and members of Ansar ud-Deen Society of Nigeria."
+		]
+	},
+	{
+		"id": "7",
 		"postImg": "news-03.jpg",
 		"authorImg": "author.jpg",
 		"authorName": "Medison Azar",

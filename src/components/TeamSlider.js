@@ -64,7 +64,7 @@ class TeamSlider extends Component {
 											<div className="img-content text-center">
 												<h6>{data.personName}</h6>
 												<p>{data.personTitle}</p>
-												<ul className="list-unstyled list-inline">
+												{/* <ul className="list-unstyled list-inline">
 													<li className="list-inline-item">
 														<a
 															href={
@@ -95,7 +95,7 @@ class TeamSlider extends Component {
 															<i className="fab fa-youtube"></i>
 														</a>
 													</li>
-												</ul>
+												</ul> */}
 											</div>
 										</div>
 									))}

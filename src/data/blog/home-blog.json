@@ -3,6 +3,17 @@
 	"dataList": [
 		{
 			"id": "1",
+			"postImg": "news-001.jpeg",
+			"postLink": "/news",
+			"postDate": "24 Mar",
+			"postTitle": "A New Sherif Is Now in Town",
+			"postExcerpt": "Summit University, Offa has appointed Prof. Abiodun Musa Aibinu as the university's new vice-chancellor.",
+			"authorLink": "/",
+			"commentLink": "/",
+			"likeLink": "/"
+		},
+		{
+			"id": "2",
 			"postImg": "blog01.jpg",
 			"postLink": "/news",
 			"postDate": "25 Mar",
@@ -13,7 +24,7 @@
 			"likeLink": "/"
 		},
 		{
-			"id": "2",
+			"id": "3",
 			"postImg": "blog-02.jpg",
 			"postLink": "/news",
 			"postDate": "05 Nov",
@@ -24,7 +35,7 @@
 			"likeLink": "/"
 		},
 		{
-			"id": "3",
+			"id": "4",
 			"postImg": "blog-03.jpg",
 			"postLink": "/news",
 			"postDate": "01 Jul",
@@ -35,7 +46,7 @@
 			"likeLink": "/"
 		},
 		{
-			"id": "4",
+			"id": "5",
 			"postImg": "blog-004.jpg",
 			"postLink": "/news",
 			"postDate": "22 Nov",
